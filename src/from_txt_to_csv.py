@@ -4,7 +4,7 @@ import os
 BASE_DIR = os.path.dirname(os.path.dirname(__file__))
 DATA_DIR = os.path.join(BASE_DIR, "data")
 
-INPUT_FILE = os.path.join(DATA_DIR, "reviews_raw.txt")
+INPUT_FILE = os.path.join(DATA_DIR, "raw_real_reviews.txt")
 OUTPUT_FILE = os.path.join(DATA_DIR, "reviews_real.csv")
 
 reviews = []
