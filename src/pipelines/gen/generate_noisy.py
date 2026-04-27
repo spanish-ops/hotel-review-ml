@@ -11,45 +11,107 @@ target_size = 200
 # ---------------- BASE ----------------
 
 hk = {
-    "pos": ["camera pulitissima", "tutto ok con la stanza", "camera davvero in ordine", "buona pulizia generale"],
-    "neg": ["camera sporca", "non era pulita bene", "pulizia scarsa", "camera lasciata male"]
+    "pos": [
+        "camera molto pulita",
+        "stanza in ordine",
+        "ambiente curato",
+        "pulizia eccellente"
+    ],
+    "neg": [
+        "camera sporca",
+        "pulizia scarsa",
+        "stanza trascurata",
+        "ambiente poco pulito"
+    ]
 }
 
 rec = {
-    "pos": ["staff gentile", "personale molto disponibile", "accoglienza buona", "reception veloce"],
-    "neg": ["personale scortese", "attesa lunga", "reception lenta", "servizio non buono"]
+    "pos": [
+        "staff gentile",
+        "personale disponibile",
+        "accoglienza cordiale",
+        "servizio veloce"
+    ],
+    "neg": [
+        "personale scortese",
+        "attesa lunga",
+        "servizio lento",
+        "accoglienza fredda"
+    ]
 }
 
 fb = {
-    "pos": ["colazione buona", "cibo ok", "buffet soddisfacente", "tutto abbastanza buono"],
-    "neg": ["colazione scarsa", "cibo freddo", "poco assortimento", "qualità bassa"]
+    "pos": [
+        "colazione buona",
+        "cibo di qualità",
+        "buffet abbondante",
+        "piatti gustosi"
+    ],
+    "neg": [
+        "colazione scarsa",
+        "cibo freddo",
+        "poca scelta",
+        "qualità bassa"
+    ]
 }
 
-# ---------------- TEMPLATES (NO REPARTO NEL TESTO!) ----------------
+# ---------------- TEMPLATES ----------------
 
 templates = [
-    "la stanza è {base}",
+    "{base}",
     "{base} durante il soggiorno",
     "nel complesso {base}",
-    "durante il soggiorno {base}",
-    "{base} direi"
+    "direi che {base}",
+    "{base}, ma migliorabile"
 ]
 
-# ---------------- NOISE ----------------
+# ---------------- NOISE (MOLTO PIÙ LEGGERO) ----------------
 
+# typo più realistici (pochi!)
 typos = {
-    "camera": ["camra", "cmera", "cameraa"],
-    "pulita": ["pulitta", "pulitaa"],
-    "personale": ["persoale", "personalle"],
-    "colazione": ["colazzione", "colazionee"],
-    "servizio": ["servizzio", "servizioo"]
+    "camera": ["camra"],
+    "personale": ["personle"],
+    "colazione": ["colazionee"]
 }
 
-case_noise = [
-    lambda x: x,
-    lambda x: x.upper(),
-    lambda x: x.capitalize()
+def add_typos(text):
+    words = text.split()
+    new_words = []
+
+    for w in words:
+        lw = w.lower()
+        # 🔴 solo 10% probabilità
+        if lw in typos and random.random() < 0.1:
+            new_words.append(random.choice(typos[lw]))
+        else:
+            new_words.append(w)
+
+    return " ".join(new_words)
+
+# case noise più realistico
+def add_case_noise(text):
+    r = random.random()
+
+    if r < 0.8:
+        return text  # normale
+    elif r < 0.9:
+        return text.capitalize()
+    else:
+        return text.upper()  # raro
+
+# piccole variazioni realistiche
+extra_phrases = [
+    "",
+    "direi",
+    "nel complesso",
+    "tutto sommato"
 ]
+
+def add_extra(text):
+    extra = random.choice(extra_phrases)
+    if extra:
+        return f"{text} {extra}"
+    return text
 
 # ---------------- BASE PICK ----------------
 
@@ -60,21 +122,6 @@ def get_base(dept, sentiment):
         return random.choice(rec[sentiment])
     else:
         return random.choice(fb[sentiment])
-
-# ---------------- TYPO NOISE ----------------
-
-def add_typos(text):
-    words = text.split()
-    new_words = []
-
-    for w in words:
-        lw = w.lower()
-        if lw in typos and random.random() < 0.25:
-            new_words.append(random.choice(typos[lw]))
-        else:
-            new_words.append(w)
-
-    return " ".join(new_words)
 
 # ---------------- GENERATION ----------------
 
@@ -91,10 +138,8 @@ while len(data) < target_size:
 
     text = template.format(base=base)
 
-    # case noise
-    text = random.choice(case_noise)(text)
-
-    # typo noise
+    text = add_extra(text)
+    text = add_case_noise(text)
     text = add_typos(text)
 
     key = text.lower().strip()
@@ -114,8 +159,6 @@ while len(data) < target_size:
 
 df = pd.DataFrame(data)
 
-# ---------------- ID FIRST COLUMN ----------------
-
 df = df.reset_index(drop=True)
 df.insert(0, "id", df.index)
 
@@ -128,5 +171,5 @@ os.makedirs(os.path.dirname(DATA_PATH), exist_ok=True)
 
 df.to_csv(DATA_PATH, index=False, encoding="utf-8-sig")
 
-print(f"✅ Generated {len(df)} NOISY reviews (NO LEAKAGE)")
+print(f"✅ Generated {len(df)} NOISY reviews (SOFT NOISE)")
 print("📁 Saved in:", DATA_PATH)

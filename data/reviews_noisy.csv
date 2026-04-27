@@ -1,201 +1,201 @@
 ﻿id,text,department,sentiment
-0,NEL COMPLESSO QUALITÀ BASSA,F&B,neg
-1,durante il soggiorno tutto ok con la stanza,Housekeeping,pos
-2,NEL COMPLESSO ATTESA LUNGA,Reception,neg
-3,Buffet soddisfacente durante il soggiorno,F&B,pos
-4,nel complesso reception lenta,Reception,neg
-5,Nel complesso pulizia scarsa,Housekeeping,neg
-6,Durante il soggiorno poco assortimento,F&B,neg
-7,camera sporca direi,Housekeeping,neg
-8,NEL COMPLESSO POCO ASSORTIMENTO,F&B,neg
-9,Durante il soggiorno personale scortese,Reception,neg
-10,Colazione scarsa direi,F&B,neg
-11,Nel complesso servizio non buono,Reception,neg
-12,Durante il soggiorno personale molto disponibile,Reception,pos
-13,Accoglienza buona direi,Reception,pos
-14,camera pulitissima direi,Housekeeping,pos
-15,Tutto ok con la stanza direi,Housekeeping,pos
-16,DURANTE IL SOGGIORNO TUTTO ABBASTANZA BUONO,F&B,pos
-17,BUONA PULIZIA GENERALE DURANTE IL SOGGIORNO,Housekeeping,pos
-18,nel complesso persoale scortese,Reception,neg
-19,La stanza è tutto ok con la stanza,Housekeeping,pos
-20,DURANTE IL SOGGIORNO BUFFET SODDISFACENTE,F&B,pos
-21,TUTTO OK CON LA STANZA DURANTE IL SOGGIORNO,Housekeeping,pos
-22,Durante il soggiorno camera lasciata male,Housekeeping,neg
-23,Nel complesso buffet soddisfacente,F&B,pos
-24,Accoglienza buona durante il soggiorno,Reception,pos
-25,LA STANZA È COLAZIONE BUONA,F&B,pos
-26,Reception lenta durante il soggiorno,Reception,neg
-27,TUTTO ABBASTANZA BUONO DURANTE IL SOGGIORNO,F&B,pos
-28,personale molto disponibile direi,Reception,pos
-29,la stanza è camera davvero in ordine,Housekeeping,pos
-30,Nel complesso cibo ok,F&B,pos
-31,Buona pulizia generale direi,Housekeeping,pos
-32,nel complesso cmera davvero in ordine,Housekeeping,pos
-33,Qualità bassa durante il soggiorno,F&B,neg
-34,CAMERA DAVVERO IN ORDINE DIREI,Housekeeping,pos
-35,NEL COMPLESSO colazzione SCARSA,F&B,neg
-36,LA STANZA È TUTTO ABBASTANZA BUONO,F&B,pos
-37,servizioo non buono durante il soggiorno,Reception,neg
-38,Colazione buona durante il soggiorno,F&B,pos
-39,la stanza è accoglienza buona,Reception,pos
-40,Reception veloce durante il soggiorno,Reception,pos
-41,NEL COMPLESSO CAMERA PULITISSIMA,Housekeeping,pos
-42,STAFF GENTILE DIREI,Reception,pos
-43,Servizio non buono direi,Reception,neg
-44,LA STANZA È SERVIZIO NON BUONO,Reception,neg
-45,camera davvero in ordine durante il soggiorno,Housekeeping,pos
-46,colazzione buona direi,F&B,pos
-47,Durante il soggiorno pulizia scarsa,Housekeeping,neg
-48,durante il soggiorno buona pulizia generale,Housekeeping,pos
-49,cmera davvero in ordine durante il soggiorno,Housekeeping,pos
-50,la stanza è camra lasciata male,Housekeeping,neg
-51,Personale molto disponibile durante il soggiorno,Reception,pos
-52,cameraa davvero in ordine durante il soggiorno,Housekeeping,pos
-53,CAMERA LASCIATA MALE DIREI,Housekeeping,neg
-54,staff gentile durante il soggiorno,Reception,pos
-55,colazione buona direi,F&B,pos
-56,Durante il soggiorno cibo ok,F&B,pos
-57,La stanza è buona pulizia generale,Housekeeping,pos
-58,Nel complesso reception veloce,Reception,pos
-59,nel complesso cibo freddo,F&B,neg
-60,la stanza è cibo freddo,F&B,neg
-61,la stanza è cmera pulitissima,Housekeeping,pos
-62,LA STANZA È RECEPTION VELOCE,Reception,pos
-63,nel complesso tutto ok con la stanza,Housekeeping,pos
-64,DURANTE IL SOGGIORNO cameraa DAVVERO IN ORDINE,Housekeeping,pos
-65,durante il soggiorno camera pulitissima,Housekeeping,pos
-66,nel complesso camera lasciata male,Housekeeping,neg
-67,Camera sporca durante il soggiorno,Housekeeping,neg
-68,la stanza è staff gentile,Reception,pos
-69,La stanza è qualità bassa,F&B,neg
-70,DURANTE IL SOGGIORNO ACCOGLIENZA BUONA,Reception,pos
-71,nel complesso staff gentile,Reception,pos
-72,durante il soggiorno reception veloce,Reception,pos
-73,poco assortimento direi,F&B,neg
-74,durante il soggiorno reception lenta,Reception,neg
-75,cibo freddo direi,F&B,neg
-76,LA STANZA È BUFFET SODDISFACENTE,F&B,pos
-77,TUTTO ABBASTANZA BUONO DIREI,F&B,pos
-78,nel complesso personale molto disponibile,Reception,pos
-79,COLAZIONE SCARSA DURANTE IL SOGGIORNO,F&B,neg
-80,Personale scortese durante il soggiorno,Reception,neg
-81,LA STANZA È colazzione SCARSA,F&B,neg
-82,LA STANZA È CIBO OK,F&B,pos
-83,DURANTE IL SOGGIORNO ATTESA LUNGA,Reception,neg
-84,Cibo ok direi,F&B,pos
-85,nel complesso accoglienza buona,Reception,pos
-86,buffet soddisfacente direi,F&B,pos
-87,NEL COMPLESSO BUONA PULIZIA GENERALE,Housekeeping,pos
-88,LA STANZA È camra PULITISSIMA,Housekeeping,pos
-89,LA STANZA È NON ERA PULITA BENE,Housekeeping,neg
-90,nel complesso cameraa pulitissima,Housekeeping,pos
-91,camera pulitissima durante il soggiorno,Housekeeping,pos
-92,Cibo ok durante il soggiorno,F&B,pos
-93,La stanza è attesa lunga,Reception,neg
-94,nel complesso camera sporca,Housekeeping,neg
-95,Nel complesso camera davvero in ordine,Housekeeping,pos
-96,la stanza è colazione scarsa,F&B,neg
-97,Nel complesso non era pulita bene,Housekeeping,neg
-98,RECEPTION VELOCE DIREI,Reception,pos
-99,non era pulita bene durante il soggiorno,Housekeeping,neg
-100,La stanza è cameraa pulitissima,Housekeeping,pos
-101,durante il soggiorno servizio non buono,Reception,neg
-102,colazzione buona durante il soggiorno,F&B,pos
-103,LA STANZA È RECEPTION LENTA,Reception,neg
-104,PULIZIA SCARSA DIREI,Housekeeping,neg
-105,La stanza è camra sporca,Housekeeping,neg
-106,persoale scortese direi,Reception,neg
-107,poco assortimento durante il soggiorno,F&B,neg
-108,DURANTE IL SOGGIORNO colazzione SCARSA,F&B,neg
-109,Durante il soggiorno camera davvero in ordine,Housekeeping,pos
-110,Durante il soggiorno persoale molto disponibile,Reception,pos
-111,nel complesso tutto abbastanza buono,F&B,pos
-112,servizzio non buono durante il soggiorno,Reception,neg
-113,Durante il soggiorno cameraa pulitissima,Housekeeping,pos
-114,PERSONALE SCORTESE DIREI,Reception,neg
-115,la stanza è camera lasciata male,Housekeeping,neg
-116,personalle molto disponibile direi,Reception,pos
-117,CIBO FREDDO DURANTE IL SOGGIORNO,F&B,neg
-118,durante il soggiorno personalle molto disponibile,Reception,pos
-119,DURANTE IL SOGGIORNO cmera PULITISSIMA,Housekeeping,pos
-120,la stanza è camera pulitissima,Housekeeping,pos
-121,NEL COMPLESSO COLAZIONE BUONA,F&B,pos
-122,DURANTE IL SOGGIORNO colazionee SCARSA,F&B,neg
-123,Durante il soggiorno qualità bassa,F&B,neg
-124,Nel complesso personalle molto disponibile,Reception,pos
-125,la stanza è cameraa davvero in ordine,Housekeeping,pos
-126,LA STANZA È PERSONALE MOLTO DISPONIBILE,Reception,pos
-127,PULIZIA SCARSA DURANTE IL SOGGIORNO,Housekeeping,neg
-128,la stanza è personale scortese,Reception,neg
-129,Durante il soggiorno cibo freddo,F&B,neg
-130,LA STANZA È PULIZIA SCARSA,Housekeeping,neg
-131,DURANTE IL SOGGIORNO colazzione BUONA,F&B,pos
-132,Durante il soggiorno colazione buona,F&B,pos
-133,nel complesso colazzione buona,F&B,pos
-134,ATTESA LUNGA DIREI,Reception,neg
-135,cmera lasciata male direi,Housekeeping,neg
-136,La stanza è personalle molto disponibile,Reception,pos
-137,QUALITÀ BASSA DIREI,F&B,neg
-138,DURANTE IL SOGGIORNO STAFF GENTILE,Reception,pos
-139,camra davvero in ordine direi,Housekeeping,pos
-140,cmera sporca direi,Housekeeping,neg
-141,persoale molto disponibile durante il soggiorno,Reception,pos
-142,la stanza è poco assortimento,F&B,neg
-143,colazionee buona direi,F&B,pos
-144,DURANTE IL SOGGIORNO camra PULITISSIMA,Housekeeping,pos
-145,la stanza è personalle scortese,Reception,neg
-146,La stanza è colazionee buona,F&B,pos
-147,nel complesso colazione scarsa,F&B,neg
-148,ATTESA LUNGA DURANTE IL SOGGIORNO,Reception,neg
-149,DURANTE IL SOGGIORNO cmera DAVVERO IN ORDINE,Housekeeping,pos
-150,La stanza è camera sporca,Housekeeping,neg
-151,NON ERA pulitaa BENE DIREI,Housekeeping,neg
-152,servizioo non buono direi,Reception,neg
-153,LA STANZA È cmera DAVVERO IN ORDINE,Housekeeping,pos
-154,cmera davvero in ordine direi,Housekeeping,pos
-155,cameraa PULITISSIMA DURANTE IL SOGGIORNO,Housekeeping,pos
-156,DURANTE IL SOGGIORNO CAMERA SPORCA,Housekeeping,neg
-157,La stanza è colazionee scarsa,F&B,neg
-158,persoale scortese durante il soggiorno,Reception,neg
-159,persoale MOLTO DISPONIBILE DIREI,Reception,pos
-160,Nel complesso camra davvero in ordine,Housekeeping,pos
-161,RECEPTION LENTA DIREI,Reception,neg
-162,LA STANZA È persoale SCORTESE,Reception,neg
-163,Nel complesso cmera pulitissima,Housekeeping,pos
-164,non era pulita bene direi,Housekeeping,neg
-165,Camera lasciata male durante il soggiorno,Housekeeping,neg
-166,La stanza è non era pulitaa bene,Housekeeping,neg
-167,cmera pulitissima durante il soggiorno,Housekeeping,pos
-168,durante il soggiorno colazione scarsa,F&B,neg
-169,camra PULITISSIMA DURANTE IL SOGGIORNO,Housekeeping,pos
-170,Durante il soggiorno camra davvero in ordine,Housekeeping,pos
-171,nel complesso servizzio non buono,Reception,neg
-172,La stanza è persoale molto disponibile,Reception,pos
-173,durante il soggiorno cameraa sporca,Housekeeping,neg
-174,DURANTE IL SOGGIORNO NON ERA PULITA BENE,Housekeeping,neg
-175,Servizio non buono durante il soggiorno,Reception,neg
-176,camra sporca durante il soggiorno,Housekeeping,neg
-177,LA STANZA È cmera LASCIATA MALE,Housekeeping,neg
-178,la stanza è servizzio non buono,Reception,neg
-179,personalle SCORTESE DIREI,Reception,neg
-180,personalle molto disponibile durante il soggiorno,Reception,pos
-181,cameraa lasciata male durante il soggiorno,Housekeeping,neg
-182,nel complesso cmera lasciata male,Housekeeping,neg
-183,Nel complesso personale scortese,Reception,neg
-184,Durante il soggiorno non era pulitta bene,Housekeeping,neg
-185,cameraa davvero in ordine direi,Housekeeping,pos
-186,DURANTE IL SOGGIORNO servizzio NON BUONO,Reception,neg
-187,cameraa pulitissima direi,Housekeeping,pos
-188,colazionee buona durante il soggiorno,F&B,pos
-189,Nel complesso persoale molto disponibile,Reception,pos
-190,colazionee SCARSA DURANTE IL SOGGIORNO,F&B,neg
-191,cmera pulitissima direi,Housekeeping,pos
-192,LA STANZA È colazzione BUONA,F&B,pos
-193,colazionee scarsa direi,F&B,neg
-194,la stanza è non era pulitta bene,Housekeeping,neg
-195,Nel complesso camra sporca,Housekeeping,neg
-196,Non era pulitta bene durante il soggiorno,Housekeeping,neg
-197,DURANTE IL SOGGIORNO camra SPORCA,Housekeeping,neg
-198,Durante il soggiorno persoale scortese,Reception,neg
-199,NEL COMPLESSO colazionee BUONA,F&B,pos
+0,DIREI CHE COLAZIONE BUONA NEL COMPLESSO,F&B,pos
+1,direi che stanza in ordine direi,Housekeeping,pos
+2,piatti gustosi durante il soggiorno,F&B,pos
+3,direi che stanza trascurata direi,Housekeeping,neg
+4,Pulizia scarsa durante il soggiorno,Housekeeping,neg
+5,direi che personale disponibile tutto sommato,Reception,pos
+6,nel complesso pulizia eccellente direi,Housekeeping,pos
+7,Qualità bassa direi,F&B,neg
+8,ambiente curato durante il soggiorno,Housekeeping,pos
+9,nel complesso stanza trascurata tutto sommato,Housekeeping,neg
+10,NEL COMPLESSO QUALITÀ BASSA DIREI,F&B,neg
+11,"stanza trascurata, ma migliorabile nel complesso",Housekeeping,neg
+12,DIREI CHE BUFFET ABBONDANTE NEL COMPLESSO,F&B,pos
+13,direi che buffet abbondante,F&B,pos
+14,camera molto pulita durante il soggiorno direi,Housekeeping,pos
+15,Ambiente curato nel complesso,Housekeeping,pos
+16,DIREI CHE PULIZIA SCARSA NEL COMPLESSO,Housekeeping,neg
+17,direi che camera sporca direi,Housekeeping,neg
+18,servizio veloce,Reception,pos
+19,camera sporca,Housekeeping,neg
+20,attesa lunga tutto sommato,Reception,neg
+21,pulizia eccellente tutto sommato,Housekeeping,pos
+22,stanza trascurata durante il soggiorno tutto sommato,Housekeeping,neg
+23,"attesa lunga, ma migliorabile direi",Reception,neg
+24,personale disponibile direi,Reception,pos
+25,Staff gentile tutto sommato,Reception,pos
+26,cibo di qualità nel complesso,F&B,pos
+27,"PERSONALE DISPONIBILE, MA MIGLIORABILE NEL COMPLESSO",Reception,pos
+28,colazione buona nel complesso,F&B,pos
+29,"stanza in ordine, ma migliorabile direi",Housekeeping,pos
+30,NEL COMPLESSO CAMERA MOLTO PULITA TUTTO SOMMATO,Housekeeping,pos
+31,cibo di qualità durante il soggiorno nel complesso,F&B,pos
+32,direi che ambiente curato,Housekeeping,pos
+33,piatti gustosi nel complesso,F&B,pos
+34,nel complesso personale disponibile tutto sommato,Reception,pos
+35,direi che cibo freddo,F&B,neg
+36,stanza in ordine durante il soggiorno tutto sommato,Housekeeping,pos
+37,camra molto pulita,Housekeeping,pos
+38,nel complesso personale scortese tutto sommato,Reception,neg
+39,"stanza in ordine, ma migliorabile tutto sommato",Housekeeping,pos
+40,"colazione buona, ma migliorabile tutto sommato",F&B,pos
+41,colazione buona durante il soggiorno tutto sommato,F&B,pos
+42,"qualità bassa, ma migliorabile tutto sommato",F&B,neg
+43,"buffet abbondante, ma migliorabile tutto sommato",F&B,pos
+44,pulizia eccellente nel complesso,Housekeeping,pos
+45,"stanza trascurata, ma migliorabile tutto sommato",Housekeeping,neg
+46,Camera molto pulita,Housekeeping,pos
+47,nel complesso personale scortese,Reception,neg
+48,stanza in ordine durante il soggiorno,Housekeeping,pos
+49,"accoglienza cordiale, ma migliorabile tutto sommato",Reception,pos
+50,camera sporca tutto sommato,Housekeeping,neg
+51,accoglienza fredda durante il soggiorno direi,Reception,neg
+52,colazione buona direi,F&B,pos
+53,Nel complesso servizio veloce nel complesso,Reception,pos
+54,buffet abbondante tutto sommato,F&B,pos
+55,direi che stanza in ordine nel complesso,Housekeeping,pos
+56,nel complesso ambiente curato,Housekeeping,pos
+57,personale scortese durante il soggiorno direi,Reception,neg
+58,colazionee buona nel complesso,F&B,pos
+59,direi che pulizia eccellente nel complesso,Housekeeping,pos
+60,staff gentile nel complesso,Reception,pos
+61,cibo di qualità durante il soggiorno tutto sommato,F&B,pos
+62,stanza in ordine direi,Housekeeping,pos
+63,direi che stanza trascurata tutto sommato,Housekeeping,neg
+64,nel complesso cibo di qualità nel complesso,F&B,pos
+65,Servizio veloce tutto sommato,Reception,pos
+66,"POCA SCELTA, MA MIGLIORABILE TUTTO SOMMATO",F&B,neg
+67,"buffet abbondante, ma migliorabile direi",F&B,pos
+68,direi che camera sporca tutto sommato,Housekeeping,neg
+69,STAFF GENTILE DIREI,Reception,pos
+70,camera sporca durante il soggiorno nel complesso,Housekeeping,neg
+71,nel complesso ambiente curato nel complesso,Housekeeping,pos
+72,direi che personale disponibile direi,Reception,pos
+73,direi che ambiente curato nel complesso,Housekeeping,pos
+74,staff gentile durante il soggiorno nel complesso,Reception,pos
+75,direi che camera molto pulita nel complesso,Housekeeping,pos
+76,qualità bassa tutto sommato,F&B,neg
+77,"servizio veloce, ma migliorabile direi",Reception,pos
+78,Direi che piatti gustosi nel complesso,F&B,pos
+79,"PULIZIA ECCELLENTE, MA MIGLIORABILE NEL COMPLESSO",Housekeeping,pos
+80,"camera molto pulita, ma migliorabile nel complesso",Housekeeping,pos
+81,"STANZA TRASCURATA, MA MIGLIORABILE",Housekeeping,neg
+82,nel complesso pulizia eccellente,Housekeeping,pos
+83,nel complesso colazione scarsa,F&B,neg
+84,"personle SCORTESE, MA MIGLIORABILE DIREI",Reception,neg
+85,"ambiente curato, ma migliorabile nel complesso",Housekeeping,pos
+86,staff gentile durante il soggiorno tutto sommato,Reception,pos
+87,personale scortese durante il soggiorno,Reception,neg
+88,nel complesso buffet abbondante direi,F&B,pos
+89,"Staff gentile, ma migliorabile nel complesso",Reception,pos
+90,buffet abbondante direi,F&B,pos
+91,nel complesso staff gentile direi,Reception,pos
+92,"attesa lunga, ma migliorabile",Reception,neg
+93,DIREI CHE CAMERA MOLTO PULITA,Housekeeping,pos
+94,Stanza trascurata durante il soggiorno direi,Housekeeping,neg
+95,"camera molto pulita, ma migliorabile",Housekeeping,pos
+96,nel complesso stanza in ordine direi,Housekeeping,pos
+97,direi che cibo di qualità nel complesso,F&B,pos
+98,direi che accoglienza fredda tutto sommato,Reception,neg
+99,"accoglienza cordiale, ma migliorabile direi",Reception,pos
+100,servizio lento tutto sommato,Reception,neg
+101,direi che poca scelta tutto sommato,F&B,neg
+102,Ambiente curato durante il soggiorno nel complesso,Housekeeping,pos
+103,"servizio lento, ma migliorabile direi",Reception,neg
+104,direi che servizio veloce direi,Reception,pos
+105,piatti gustosi,F&B,pos
+106,"camera molto pulita, ma migliorabile tutto sommato",Housekeeping,pos
+107,direi che piatti gustosi,F&B,pos
+108,cibo freddo tutto sommato,F&B,neg
+109,nel complesso servizio veloce direi,Reception,pos
+110,camera molto pulita durante il soggiorno tutto sommato,Housekeeping,pos
+111,personale disponibile,Reception,pos
+112,colazionee buona direi,F&B,pos
+113,qualità bassa durante il soggiorno tutto sommato,F&B,neg
+114,nel complesso buffet abbondante tutto sommato,F&B,pos
+115,piatti gustosi durante il soggiorno tutto sommato,F&B,pos
+116,direi che servizio veloce tutto sommato,Reception,pos
+117,"servizio veloce, ma migliorabile nel complesso",Reception,pos
+118,personale scortese durante il soggiorno tutto sommato,Reception,neg
+119,"colazione scarsa, ma migliorabile",F&B,neg
+120,direi che attesa lunga tutto sommato,Reception,neg
+121,cibo di qualità durante il soggiorno direi,F&B,pos
+122,nel complesso camera molto pulita,Housekeeping,pos
+123,"cibo freddo, ma migliorabile direi",F&B,neg
+124,"personale disponibile, ma migliorabile direi",Reception,pos
+125,nel complesso accoglienza cordiale,Reception,pos
+126,piatti gustosi direi,F&B,pos
+127,nel complesso personale scortese direi,Reception,neg
+128,ambiente poco pulito durante il soggiorno tutto sommato,Housekeeping,neg
+129,nel complesso cibo di qualità tutto sommato,F&B,pos
+130,nel complesso pulizia scarsa tutto sommato,Housekeeping,neg
+131,personale disponibile tutto sommato,Reception,pos
+132,direi che personale disponibile nel complesso,Reception,pos
+133,"poca scelta, ma migliorabile nel complesso",F&B,neg
+134,camera molto pulita durante il soggiorno nel complesso,Housekeeping,pos
+135,nel complesso servizio veloce tutto sommato,Reception,pos
+136,Accoglienza cordiale,Reception,pos
+137,NEL COMPLESSO BUFFET ABBONDANTE NEL COMPLESSO,F&B,pos
+138,servizio veloce durante il soggiorno tutto sommato,Reception,pos
+139,AMBIENTE CURATO DIREI,Housekeeping,pos
+140,"pulizia eccellente, ma migliorabile direi",Housekeeping,pos
+141,"buffet abbondante, ma migliorabile",F&B,pos
+142,direi che qualità bassa direi,F&B,neg
+143,poca scelta durante il soggiorno nel complesso,F&B,neg
+144,direi che accoglienza cordiale direi,Reception,pos
+145,NEL COMPLESSO QUALITÀ BASSA,F&B,neg
+146,piatti gustosi durante il soggiorno nel complesso,F&B,pos
+147,Stanza in ordine tutto sommato,Housekeeping,pos
+148,"camera sporca, ma migliorabile",Housekeeping,neg
+149,Cibo di qualità,F&B,pos
+150,colazione buona durante il soggiorno,F&B,pos
+151,piatti gustosi tutto sommato,F&B,pos
+152,direi che camera molto pulita direi,Housekeeping,pos
+153,servizio veloce durante il soggiorno nel complesso,Reception,pos
+154,accoglienza cordiale durante il soggiorno tutto sommato,Reception,pos
+155,buffet abbondante durante il soggiorno nel complesso,F&B,pos
+156,direi che cibo di qualità tutto sommato,F&B,pos
+157,Direi che pulizia eccellente tutto sommato,Housekeeping,pos
+158,stanza in ordine durante il soggiorno nel complesso,Housekeeping,pos
+159,nel complesso piatti gustosi tutto sommato,F&B,pos
+160,direi che piatti gustosi direi,F&B,pos
+161,"Ambiente curato, ma migliorabile direi",Housekeeping,pos
+162,direi che pulizia scarsa direi,Housekeeping,neg
+163,personale scortese nel complesso,Reception,neg
+164,personale disponibile durante il soggiorno nel complesso,Reception,pos
+165,Pulizia scarsa direi,Housekeeping,neg
+166,"attesa lunga, ma migliorabile tutto sommato",Reception,neg
+167,nel complesso piatti gustosi direi,F&B,pos
+168,NEL COMPLESSO COLAZIONE BUONA TUTTO SOMMATO,F&B,pos
+169,"personale scortese, ma migliorabile nel complesso",Reception,neg
+170,servizio veloce durante il soggiorno direi,Reception,pos
+171,camera molto pulita durante il soggiorno,Housekeeping,pos
+172,ambiente curato,Housekeeping,pos
+173,"ambiente poco pulito, ma migliorabile direi",Housekeeping,neg
+174,"colazione scarsa, ma migliorabile tutto sommato",F&B,neg
+175,servizio veloce direi,Reception,pos
+176,direi che accoglienza cordiale nel complesso,Reception,pos
+177,nel complesso cibo freddo nel complesso,F&B,neg
+178,pulizia eccellente durante il soggiorno,Housekeeping,pos
+179,Direi che cibo di qualità direi,F&B,pos
+180,nel complesso accoglienza cordiale tutto sommato,Reception,pos
+181,"AMBIENTE CURATO, MA MIGLIORABILE TUTTO SOMMATO",Housekeeping,pos
+182,"staff gentile, ma migliorabile tutto sommato",Reception,pos
+183,QUALITÀ BASSA,F&B,neg
+184,"COLAZIONE SCARSA, MA MIGLIORABILE DIREI",F&B,neg
+185,camra SPORCA DURANTE IL SOGGIORNO,Housekeeping,neg
+186,nel complesso ambiente poco pulito,Housekeeping,neg
+187,nel complesso personle disponibile tutto sommato,Reception,pos
+188,Direi che staff gentile,Reception,pos
+189,nel complesso camera sporca,Housekeeping,neg
+190,accoglienza fredda,Reception,neg
+191,personale disponibile durante il soggiorno tutto sommato,Reception,pos
+192,direi che ambiente curato tutto sommato,Housekeeping,pos
+193,accoglienza fredda tutto sommato,Reception,neg
+194,pulizia eccellente durante il soggiorno direi,Housekeeping,pos
+195,"piatti gustosi, ma migliorabile nel complesso",F&B,pos
+196,"pulizia scarsa, ma migliorabile nel complesso",Housekeeping,neg
+197,staff gentile,Reception,pos
+198,"cibo di qualità, ma migliorabile tutto sommato",F&B,pos
+199,"personale disponibile, ma migliorabile tutto sommato",Reception,pos
