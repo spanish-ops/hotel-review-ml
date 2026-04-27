@@ -1,187 +1,168 @@
 import os
 import pandas as pd
 import random
+from itertools import product
 
 # ---------------- CONFIG ----------------
 departments = ["Housekeeping", "Reception", "F&B"]
-sentiment_labels = ["pos", "neg"]
+sentiments = ["pos", "neg"]
 
-# ---------------- HOUSEKEEPING ----------------
-hk_pos_base = [
-    "camera pulita e ordinata",
-    "bagno impeccabile",
-    "stanza sempre pulita",
-    "pavimenti senza polvere",
-    "ottima igiene generale",
-    "camera ben sistemata",
-    "ambiente profumato e pulito",
-    "pulizia giornaliera accurata",
-    "lenzuola fresche e pulite",
-    "stanza accogliente e pulita",
-    "pulizia delle camere eccellente",
-    "bagno ben igienizzato"
+target_size = 250
+
+# ---------------- BASE PHRASES (ESPANSE) ----------------
+
+hk_pos = [
+    "pulita e ordinata",
+    "impeccabile",
+    "ben mantenuta",
+    "igienizzata correttamente",
+    "ben curata",
+    "fresca e pulita",
+    "molto pulita",
+    "perfettamente ordinata",
+    "in ottime condizioni"
 ]
 
-hk_neg_base = [
-    "camera sporca",
-    "bagno non pulito",
-    "pulizia superficiale",
-    "lenzuola macchiate",
-    "scarsa igiene",
-    "presenza di polvere sui mobili",
-    "cattivo odore nella stanza",
-    "pulizia insufficiente",
-    "bagno sporco e trascurato",
-    "servizio di pulizia poco attento",
-    "stanza poco curata",
-    "igiene generale scarsa"
+hk_neg = [
+    "sporca",
+    "non pulita",
+    "trascurata",
+    "con scarsa igiene",
+    "piena di polvere",
+    "maleodorante",
+    "poco curata"
 ]
 
-# ---------------- RECEPTION ----------------
-rec_pos_base = [
-    "check-in veloce",
-    "personale gentile",
-    "accoglienza ottima",
-    "procedure semplici",
-    "staff disponibile",
-    "personale molto cordiale",
-    "servizio reception efficiente",
-    "assistenza rapida e professionale",
-    "staff sempre presente",
-    "accoglienza calorosa",
-    "personale disponibile a ogni richiesta",
-    "gestione clienti eccellente"
+rec_pos = [
+    "gentile",
+    "molto disponibile",
+    "professionale",
+    "efficiente",
+    "cordiale",
+    "attento alle richieste",
+    "ben organizzato"
 ]
 
-rec_neg_base = [
-    "attesa lunga al check-in",
-    "personale scortese",
-    "procedure lente",
-    "comunicazione scarsa",
-    "gestione pessima",
-    "personale poco disponibile",
-    "check-in disorganizzato",
-    "servizio reception inefficiente",
-    "risposte lente alle richieste",
-    "accoglienza fredda",
-    "mancanza di assistenza",
-    "staff poco professionale"
+rec_neg = [
+    "scortese",
+    "poco disponibile",
+    "lento",
+    "inefficiente",
+    "disorganizzato",
+    "poco professionale"
 ]
 
-# ---------------- F&B ----------------
-fb_pos_base = [
-    "colazione ricca",
-    "cibo ottimo",
-    "buffet abbondante",
-    "servizio rapido",
-    "ampia scelta",
-    "prodotti freschi e di qualità",
-    "colazione varia e gustosa",
-    "piatti ben preparati",
-    "ottima qualità del cibo",
-    "servizio ristorante efficiente",
-    "bevande e cibo ben forniti",
-    "esperienza culinaria piacevole"
+fb_pos = [
+    "buona",
+    "ottima",
+    "varia e gustosa",
+    "di qualità",
+    "ben preparata",
+    "apprezzabile",
+    "soddisfacente"
 ]
 
-fb_neg_base = [
-    "colazione scarsa",
-    "cibo freddo",
-    "servizio lento",
-    "buffet povero",
-    "qualità bassa",
-    "poca varietà di cibo",
-    "piatti poco curati",
-    "servizio ristorante lento",
-    "cibo di scarsa qualità",
-    "colazione deludente",
-    "prodotti non freschi",
-    "esperienza culinaria negativa"
+fb_neg = [
+    "scarsa",
+    "deludente",
+    "fredda",
+    "poco varia",
+    "di bassa qualità",
+    "non soddisfacente"
 ]
 
-# ---------------- VARIAZIONI ----------------
-intensifiers_pos = ["", "molto", "davvero", "estremamente"]
-intensifiers_neg = ["", "poco", "per niente", "decisamente"]
+# ---------------- TEMPLATE (ESPANSI) ----------------
 
-extra_context = [
-    "",
-    " durante il soggiorno",
-    " per tutta la permanenza",
-    " nel complesso",
-    " rispetto alle aspettative"
-]
+templates = {
+    "Housekeeping": [
+        "La camera è {base}",
+        "La camera risulta {base}",
+        "Durante il soggiorno la camera è stata {base}",
+        "Abbiamo trovato la camera {base}",
+        "La camera si presenta {base}",
+        "Il livello di pulizia è {base}"
+    ],
+    "Reception": [
+        "Il personale è {base}",
+        "Il personale si è dimostrato {base}",
+        "Durante il soggiorno il personale è stato {base}",
+        "Il servizio di reception è {base}",
+        "La reception risulta {base}",
+        "L'accoglienza è stata {base}"
+    ],
+    "F&B": [
+        "La colazione è {base}",
+        "Il servizio di ristorazione è {base}",
+        "Durante il soggiorno il cibo è {base}",
+        "Il buffet è {base}",
+        "L'offerta gastronomica è {base}",
+        "La qualità del cibo è {base}"
+    ]
+}
 
-# ---------------- GENERATORE FRASE ----------------
-def build_sentence(base_list, sentiment):
-    base = random.choice(base_list)
+# ---------------- MAP ----------------
 
-    if sentiment == "pos":
-        intensity = random.choice(intensifiers_pos)
-    else:
-        intensity = random.choice(intensifiers_neg)
+base_map = {
+    ("Housekeeping", "pos"): hk_pos,
+    ("Housekeeping", "neg"): hk_neg,
+    ("Reception", "pos"): rec_pos,
+    ("Reception", "neg"): rec_neg,
+    ("F&B", "pos"): fb_pos,
+    ("F&B", "neg"): fb_neg
+}
 
-    context = random.choice(extra_context)
+# ---------------- GENERAZIONE COMPLETA ----------------
 
-    sentence = f"{base} {intensity}{context}".strip()
-    return sentence
+all_combinations = []
 
+for dept, sent in product(departments, sentiments):
+    bases = base_map[(dept, sent)]
+    for base in bases:
+        for template in templates[dept]:
+            text = template.format(base=base)
 
-# ---------------- GENERATORE PRINCIPALE ----------------
-def generate_review(dept, sentiment):
-    if dept == "Housekeeping":
-        base_list = hk_pos_base if sentiment == "pos" else hk_neg_base
-    elif dept == "Reception":
-        base_list = rec_pos_base if sentiment == "pos" else rec_neg_base
-    else:
-        base_list = fb_pos_base if sentiment == "pos" else fb_neg_base
+            all_combinations.append({
+                "text": text,
+                "department": dept,
+                "sentiment": sent
+            })
 
-    return build_sentence(base_list, sentiment)
+# ---------------- SHUFFLE ----------------
 
+random.shuffle(all_combinations)
 
-# ---------------- CREAZIONE DATASET ----------------
+# ---------------- SELEZIONE 250 UNICHE ----------------
+
+seen = set()
 data = []
-seen_texts = set()
 
-i = 0
-target_size = 300  # puoi aumentare
+for item in all_combinations:
+    key = item["text"].lower().strip()
 
-while len(data) < target_size:
-    dept = random.choice(departments)
-    sent = random.choices(sentiment_labels, weights=[0.7, 0.3])[0]
-
-    text = generate_review(dept, sent)
-
-    # 🔥 evita duplicati
-    if text in seen_texts:
+    if key in seen:
         continue
 
-    seen_texts.add(text)
+    seen.add(key)
+    data.append(item)
 
-    data.append({
-        "id": i,
-        "text": text,
-        "department": dept,
-        "sentiment": sent
-    })
+    if len(data) >= target_size:
+        break
 
-    i += 1
+# ---------------- DATAFRAME ----------------
 
-
-
-# 📍 risalgo fino alla root del progetto
-BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "../../../"))
-
-# 📍 punto alla cartella data
-DATA_PATH = os.path.join(BASE_DIR, "data", "reviews_clean.csv")
-
-# creo la cartella se non esiste
-os.makedirs(os.path.dirname(DATA_PATH), exist_ok=True)
-
-# --- esempio dataset ---
-data = [{"id": i, "text": "test", "department": "F&B", "sentiment": "pos"} for i in range(10)]
+for i, row in enumerate(data):
+    row["id"] = i
 
 df = pd.DataFrame(data)
 
+# ---------------- SAVE ----------------
+
+BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "../../../"))
+DATA_PATH = os.path.join(BASE_DIR, "data", "reviews_clean.csv")
+
+os.makedirs(os.path.dirname(DATA_PATH), exist_ok=True)
+
 df.to_csv(DATA_PATH, index=False, encoding="utf-8-sig")
 
-print("✅ Salvato in:", DATA_PATH)
+print(f"✅ Generate {len(df)} UNIQUE reviews (target {target_size})")
+print("📁 Saved in:", DATA_PATH)
