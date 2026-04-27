@@ -1,251 +1,251 @@
 ﻿text,department,sentiment,id
-La reception risulta cordiale,Reception,pos,0
-La camera è maleodorante,Housekeeping,neg,1
-Durante il soggiorno il personale è stato gentile,Reception,pos,2
-L'accoglienza è stata professionale,Reception,pos,3
-Il personale è cordiale,Reception,pos,4
-Il personale si è dimostrato lento,Reception,neg,5
-La camera è igienizzata correttamente,Housekeeping,pos,6
-Il livello di pulizia è fresca e pulita,Housekeeping,pos,7
-La qualità del cibo è di bassa qualità,F&B,neg,8
-Il personale è professionale,Reception,pos,9
-La camera si presenta in ottime condizioni,Housekeeping,pos,10
-La reception risulta molto disponibile,Reception,pos,11
-Il servizio di ristorazione è buona,F&B,pos,12
-La camera si presenta maleodorante,Housekeeping,neg,13
-L'accoglienza è stata efficiente,Reception,pos,14
-L'accoglienza è stata cordiale,Reception,pos,15
-La camera è molto pulita,Housekeeping,pos,16
-Il servizio di ristorazione è fredda,F&B,neg,17
-La camera risulta con scarsa igiene,Housekeeping,neg,18
-Durante il soggiorno il cibo è apprezzabile,F&B,pos,19
-Il buffet è poco varia,F&B,neg,20
-Durante il soggiorno il cibo è poco varia,F&B,neg,21
-L'offerta gastronomica è soddisfacente,F&B,pos,22
-Il personale si è dimostrato attento alle richieste,Reception,pos,23
-Il livello di pulizia è non pulita,Housekeeping,neg,24
-Il servizio di reception è inefficiente,Reception,neg,25
-La camera è poco curata,Housekeeping,neg,26
-La colazione è di bassa qualità,F&B,neg,27
-Il servizio di ristorazione è apprezzabile,F&B,pos,28
-Durante il soggiorno il personale è stato poco professionale,Reception,neg,29
-La camera risulta igienizzata correttamente,Housekeeping,pos,30
-L'offerta gastronomica è poco varia,F&B,neg,31
-Durante il soggiorno il personale è stato attento alle richieste,Reception,pos,32
-La camera è in ottime condizioni,Housekeeping,pos,33
-Il livello di pulizia è con scarsa igiene,Housekeeping,neg,34
-Abbiamo trovato la camera perfettamente ordinata,Housekeeping,pos,35
-La colazione è apprezzabile,F&B,pos,36
-Il personale si è dimostrato poco disponibile,Reception,neg,37
-L'accoglienza è stata scortese,Reception,neg,38
-Durante il soggiorno il cibo è varia e gustosa,F&B,pos,39
-La qualità del cibo è fredda,F&B,neg,40
-La reception risulta disorganizzato,Reception,neg,41
-Il personale si è dimostrato inefficiente,Reception,neg,42
-La camera è impeccabile,Housekeeping,pos,43
-La colazione è fredda,F&B,neg,44
-Il personale si è dimostrato scortese,Reception,neg,45
-Il personale si è dimostrato poco professionale,Reception,neg,46
-La camera è fresca e pulita,Housekeeping,pos,47
-Durante il soggiorno la camera è stata ben mantenuta,Housekeeping,pos,48
-Durante il soggiorno la camera è stata in ottime condizioni,Housekeeping,pos,49
-La camera risulta molto pulita,Housekeeping,pos,50
-Il personale si è dimostrato disorganizzato,Reception,neg,51
-Il personale è poco disponibile,Reception,neg,52
-Durante il soggiorno la camera è stata igienizzata correttamente,Housekeeping,pos,53
-Durante il soggiorno la camera è stata sporca,Housekeeping,neg,54
-La camera è pulita e ordinata,Housekeeping,pos,55
-Durante il soggiorno il personale è stato efficiente,Reception,pos,56
-Il buffet è non soddisfacente,F&B,neg,57
-Durante il soggiorno la camera è stata perfettamente ordinata,Housekeeping,pos,58
-Il livello di pulizia è maleodorante,Housekeeping,neg,59
-La camera si presenta fresca e pulita,Housekeeping,pos,60
-La qualità del cibo è non soddisfacente,F&B,neg,61
-Il livello di pulizia è ben curata,Housekeeping,pos,62
-Il personale si è dimostrato gentile,Reception,pos,63
-Il buffet è deludente,F&B,neg,64
-Il personale è scortese,Reception,neg,65
-Il servizio di reception è efficiente,Reception,pos,66
-La colazione è deludente,F&B,neg,67
-Durante il soggiorno la camera è stata trascurata,Housekeeping,neg,68
-Durante il soggiorno il cibo è scarsa,F&B,neg,69
-Durante il soggiorno il cibo è ottima,F&B,pos,70
-La camera si presenta perfettamente ordinata,Housekeeping,pos,71
-La reception risulta scortese,Reception,neg,72
-L'accoglienza è stata lento,Reception,neg,73
-La colazione è ottima,F&B,pos,74
-La colazione è scarsa,F&B,neg,75
-Durante il soggiorno la camera è stata fresca e pulita,Housekeeping,pos,76
-Il servizio di reception è professionale,Reception,pos,77
-Durante il soggiorno il personale è stato ben organizzato,Reception,pos,78
-Abbiamo trovato la camera non pulita,Housekeeping,neg,79
-Abbiamo trovato la camera impeccabile,Housekeeping,pos,80
-Durante il soggiorno la camera è stata maleodorante,Housekeeping,neg,81
-La camera si presenta impeccabile,Housekeeping,pos,82
-Durante il soggiorno il personale è stato inefficiente,Reception,neg,83
-La qualità del cibo è scarsa,F&B,neg,84
-La camera risulta ben curata,Housekeeping,pos,85
-Abbiamo trovato la camera con scarsa igiene,Housekeeping,neg,86
-Il buffet è di qualità,F&B,pos,87
-La camera si presenta pulita e ordinata,Housekeeping,pos,88
-Durante il soggiorno il personale è stato cordiale,Reception,pos,89
-Il servizio di ristorazione è poco varia,F&B,neg,90
-La camera è con scarsa igiene,Housekeeping,neg,91
-La colazione è varia e gustosa,F&B,pos,92
-La camera risulta maleodorante,Housekeeping,neg,93
-Il buffet è ben preparata,F&B,pos,94
-Durante il soggiorno il cibo è ben preparata,F&B,pos,95
-Il livello di pulizia è piena di polvere,Housekeeping,neg,96
-Il buffet è soddisfacente,F&B,pos,97
-Il servizio di ristorazione è soddisfacente,F&B,pos,98
-Il livello di pulizia è trascurata,Housekeeping,neg,99
-L'accoglienza è stata poco disponibile,Reception,neg,100
-Il livello di pulizia è perfettamente ordinata,Housekeeping,pos,101
-Il buffet è fredda,F&B,neg,102
-Il livello di pulizia è in ottime condizioni,Housekeeping,pos,103
-La camera risulta poco curata,Housekeeping,neg,104
-Durante il soggiorno il cibo è fredda,F&B,neg,105
-L'accoglienza è stata poco professionale,Reception,neg,106
-La reception risulta poco disponibile,Reception,neg,107
-La colazione è non soddisfacente,F&B,neg,108
-Abbiamo trovato la camera poco curata,Housekeeping,neg,109
-Il personale è inefficiente,Reception,neg,110
-Durante il soggiorno il personale è stato scortese,Reception,neg,111
-Il servizio di reception è lento,Reception,neg,112
-La qualità del cibo è buona,F&B,pos,113
-Il livello di pulizia è ben mantenuta,Housekeeping,pos,114
-Abbiamo trovato la camera trascurata,Housekeeping,neg,115
-L'accoglienza è stata disorganizzato,Reception,neg,116
-L'offerta gastronomica è fredda,F&B,neg,117
-La camera risulta non pulita,Housekeeping,neg,118
-Abbiamo trovato la camera in ottime condizioni,Housekeeping,pos,119
-Il servizio di reception è gentile,Reception,pos,120
-La colazione è ben preparata,F&B,pos,121
-L'accoglienza è stata molto disponibile,Reception,pos,122
-L'accoglienza è stata gentile,Reception,pos,123
-La camera si presenta trascurata,Housekeeping,neg,124
-La camera risulta piena di polvere,Housekeeping,neg,125
-Il servizio di ristorazione è di bassa qualità,F&B,neg,126
-L'offerta gastronomica è di qualità,F&B,pos,127
-La qualità del cibo è soddisfacente,F&B,pos,128
-La camera si presenta ben curata,Housekeeping,pos,129
-Durante il soggiorno la camera è stata pulita e ordinata,Housekeeping,pos,130
-La camera risulta perfettamente ordinata,Housekeeping,pos,131
-Il servizio di reception è poco disponibile,Reception,neg,132
-La camera risulta ben mantenuta,Housekeeping,pos,133
-Il servizio di ristorazione è ottima,F&B,pos,134
-Il personale è gentile,Reception,pos,135
-Il servizio di ristorazione è varia e gustosa,F&B,pos,136
-Abbiamo trovato la camera sporca,Housekeeping,neg,137
-L'offerta gastronomica è scarsa,F&B,neg,138
-La reception risulta poco professionale,Reception,neg,139
-Durante il soggiorno la camera è stata poco curata,Housekeeping,neg,140
-Il personale si è dimostrato professionale,Reception,pos,141
-La colazione è poco varia,F&B,neg,142
-La reception risulta attento alle richieste,Reception,pos,143
-La camera risulta pulita e ordinata,Housekeeping,pos,144
-La reception risulta efficiente,Reception,pos,145
-La camera si presenta molto pulita,Housekeeping,pos,146
-Durante il soggiorno il personale è stato lento,Reception,neg,147
-Il servizio di reception è attento alle richieste,Reception,pos,148
-L'offerta gastronomica è ben preparata,F&B,pos,149
-Il personale è lento,Reception,neg,150
-Il livello di pulizia è pulita e ordinata,Housekeeping,pos,151
-La camera è sporca,Housekeeping,neg,152
-Il servizio di ristorazione è ben preparata,F&B,pos,153
-Il servizio di reception è poco professionale,Reception,neg,154
-La colazione è soddisfacente,F&B,pos,155
-La qualità del cibo è apprezzabile,F&B,pos,156
-La camera risulta fresca e pulita,Housekeeping,pos,157
-La qualità del cibo è poco varia,F&B,neg,158
-Durante il soggiorno il cibo è buona,F&B,pos,159
-Il personale è attento alle richieste,Reception,pos,160
-L'accoglienza è stata inefficiente,Reception,neg,161
-La reception risulta ben organizzato,Reception,pos,162
-Il servizio di ristorazione è di qualità,F&B,pos,163
-Abbiamo trovato la camera ben mantenuta,Housekeeping,pos,164
-Durante il soggiorno la camera è stata con scarsa igiene,Housekeeping,neg,165
-Abbiamo trovato la camera molto pulita,Housekeeping,pos,166
-Il livello di pulizia è impeccabile,Housekeeping,pos,167
-La camera è non pulita,Housekeeping,neg,168
-Durante il soggiorno il personale è stato poco disponibile,Reception,neg,169
-La camera si presenta con scarsa igiene,Housekeeping,neg,170
-Il buffet è varia e gustosa,F&B,pos,171
-Il servizio di reception è molto disponibile,Reception,pos,172
-La camera si presenta piena di polvere,Housekeeping,neg,173
-L'offerta gastronomica è non soddisfacente,F&B,neg,174
-La qualità del cibo è ben preparata,F&B,pos,175
-La camera si presenta non pulita,Housekeeping,neg,176
-La qualità del cibo è deludente,F&B,neg,177
-La camera è ben curata,Housekeeping,pos,178
-Il livello di pulizia è sporca,Housekeeping,neg,179
-Il buffet è scarsa,F&B,neg,180
-L'offerta gastronomica è ottima,F&B,pos,181
-Il personale si è dimostrato efficiente,Reception,pos,182
-Durante il soggiorno il cibo è di bassa qualità,F&B,neg,183
-Il livello di pulizia è molto pulita,Housekeeping,pos,184
-L'offerta gastronomica è varia e gustosa,F&B,pos,185
-Il servizio di reception è disorganizzato,Reception,neg,186
-La camera risulta trascurata,Housekeeping,neg,187
-La camera è ben mantenuta,Housekeeping,pos,188
-Il buffet è ottima,F&B,pos,189
-L'accoglienza è stata ben organizzato,Reception,pos,190
-La reception risulta gentile,Reception,pos,191
-Il servizio di ristorazione è non soddisfacente,F&B,neg,192
-Il personale è molto disponibile,Reception,pos,193
-Durante il soggiorno il personale è stato disorganizzato,Reception,neg,194
-Il personale si è dimostrato cordiale,Reception,pos,195
-La camera si presenta poco curata,Housekeeping,neg,196
-Abbiamo trovato la camera igienizzata correttamente,Housekeeping,pos,197
-Il personale si è dimostrato ben organizzato,Reception,pos,198
-L'accoglienza è stata attento alle richieste,Reception,pos,199
-La qualità del cibo è varia e gustosa,F&B,pos,200
-Durante il soggiorno il cibo è soddisfacente,F&B,pos,201
-Il livello di pulizia è igienizzata correttamente,Housekeeping,pos,202
-Abbiamo trovato la camera fresca e pulita,Housekeeping,pos,203
-L'offerta gastronomica è deludente,F&B,neg,204
-La qualità del cibo è ottima,F&B,pos,205
-Abbiamo trovato la camera maleodorante,Housekeeping,neg,206
-Il buffet è buona,F&B,pos,207
-L'offerta gastronomica è di bassa qualità,F&B,neg,208
-Durante il soggiorno la camera è stata piena di polvere,Housekeeping,neg,209
-La qualità del cibo è di qualità,F&B,pos,210
-La camera è trascurata,Housekeeping,neg,211
-Il personale è efficiente,Reception,pos,212
-La camera è piena di polvere,Housekeeping,neg,213
-Durante il soggiorno il personale è stato molto disponibile,Reception,pos,214
+Durante il soggiorno il cibo è ottima,F&B,pos,0
+Abbiamo trovato la camera poco curata,Housekeeping,neg,1
+Il personale si è dimostrato attento alle richieste,Reception,pos,2
+Durante il soggiorno il cibo è di bassa qualità,F&B,neg,3
+La colazione è apprezzabile,F&B,pos,4
+Il servizio di ristorazione è di qualità,F&B,pos,5
+L'offerta gastronomica è di bassa qualità,F&B,neg,6
+La colazione è di bassa qualità,F&B,neg,7
+La qualità del cibo è scarsa,F&B,neg,8
+Il servizio di reception è ben organizzato,Reception,pos,9
+Durante il soggiorno il personale è stato efficiente,Reception,pos,10
+Durante il soggiorno il personale è stato disorganizzato,Reception,neg,11
+La camera si presenta trascurata,Housekeeping,neg,12
+L'accoglienza è stata inefficiente,Reception,neg,13
+La colazione è non soddisfacente,F&B,neg,14
+La camera è sporca,Housekeeping,neg,15
+La camera si presenta fresca e pulita,Housekeeping,pos,16
+Il servizio di ristorazione è poco varia,F&B,neg,17
+Il servizio di reception è scortese,Reception,neg,18
+Il servizio di reception è efficiente,Reception,pos,19
+La camera si presenta ben curata,Housekeeping,pos,20
+La colazione è varia e gustosa,F&B,pos,21
+La reception risulta scortese,Reception,neg,22
+Durante il soggiorno il personale è stato lento,Reception,neg,23
+L'offerta gastronomica è ottima,F&B,pos,24
+La colazione è soddisfacente,F&B,pos,25
+L'offerta gastronomica è fredda,F&B,neg,26
+Durante il soggiorno il cibo è di qualità,F&B,pos,27
+Il servizio di reception è molto disponibile,Reception,pos,28
+L'offerta gastronomica è varia e gustosa,F&B,pos,29
+Il buffet è scarsa,F&B,neg,30
+Durante il soggiorno il personale è stato ben organizzato,Reception,pos,31
+Il livello di pulizia è non pulita,Housekeeping,neg,32
+Abbiamo trovato la camera ben mantenuta,Housekeeping,pos,33
+Il buffet è ottima,F&B,pos,34
+Il servizio di reception è inefficiente,Reception,neg,35
+La colazione è deludente,F&B,neg,36
+Il servizio di reception è lento,Reception,neg,37
+L'accoglienza è stata attento alle richieste,Reception,pos,38
+La reception risulta attento alle richieste,Reception,pos,39
+La camera è poco curata,Housekeeping,neg,40
+Il personale è attento alle richieste,Reception,pos,41
+La camera si presenta piena di polvere,Housekeeping,neg,42
+La camera è ben curata,Housekeeping,pos,43
+L'accoglienza è stata professionale,Reception,pos,44
+La qualità del cibo è fredda,F&B,neg,45
+La camera risulta igienizzata correttamente,Housekeeping,pos,46
+Il livello di pulizia è sporca,Housekeeping,neg,47
+La colazione è buona,F&B,pos,48
+Abbiamo trovato la camera sporca,Housekeeping,neg,49
+Il servizio di reception è disorganizzato,Reception,neg,50
+La qualità del cibo è di bassa qualità,F&B,neg,51
+Il personale si è dimostrato cordiale,Reception,pos,52
+Durante il soggiorno il personale è stato cordiale,Reception,pos,53
+L'offerta gastronomica è soddisfacente,F&B,pos,54
+La qualità del cibo è apprezzabile,F&B,pos,55
+La camera risulta piena di polvere,Housekeeping,neg,56
+Durante il soggiorno la camera è stata con scarsa igiene,Housekeeping,neg,57
+La reception risulta professionale,Reception,pos,58
+L'accoglienza è stata efficiente,Reception,pos,59
+Il buffet è soddisfacente,F&B,pos,60
+Durante il soggiorno il personale è stato professionale,Reception,pos,61
+Durante il soggiorno la camera è stata pulita e ordinata,Housekeeping,pos,62
+Durante il soggiorno il personale è stato poco disponibile,Reception,neg,63
+La camera è trascurata,Housekeeping,neg,64
+Il livello di pulizia è perfettamente ordinata,Housekeeping,pos,65
+Durante il soggiorno la camera è stata perfettamente ordinata,Housekeeping,pos,66
+Il livello di pulizia è pulita e ordinata,Housekeeping,pos,67
+Il livello di pulizia è molto pulita,Housekeeping,pos,68
+L'offerta gastronomica è non soddisfacente,F&B,neg,69
+L'offerta gastronomica è apprezzabile,F&B,pos,70
+Il buffet è ben preparata,F&B,pos,71
+Il servizio di ristorazione è ottima,F&B,pos,72
+L'accoglienza è stata poco disponibile,Reception,neg,73
+L'accoglienza è stata gentile,Reception,pos,74
+Durante il soggiorno la camera è stata ben mantenuta,Housekeeping,pos,75
+Durante il soggiorno il personale è stato inefficiente,Reception,neg,76
+La camera si presenta non pulita,Housekeeping,neg,77
+La colazione è ben preparata,F&B,pos,78
+La camera è maleodorante,Housekeeping,neg,79
+Abbiamo trovato la camera molto pulita,Housekeeping,pos,80
+Il servizio di ristorazione è soddisfacente,F&B,pos,81
+Il livello di pulizia è fresca e pulita,Housekeeping,pos,82
+L'accoglienza è stata disorganizzato,Reception,neg,83
+Il servizio di reception è attento alle richieste,Reception,pos,84
+Il personale si è dimostrato scortese,Reception,neg,85
+Durante il soggiorno il cibo è non soddisfacente,F&B,neg,86
+La camera risulta maleodorante,Housekeeping,neg,87
+Il servizio di ristorazione è varia e gustosa,F&B,pos,88
+Il servizio di ristorazione è ben preparata,F&B,pos,89
+Il servizio di ristorazione è apprezzabile,F&B,pos,90
+La camera risulta perfettamente ordinata,Housekeeping,pos,91
+La camera è impeccabile,Housekeeping,pos,92
+Il servizio di ristorazione è buona,F&B,pos,93
+Il servizio di ristorazione è non soddisfacente,F&B,neg,94
+Il personale si è dimostrato efficiente,Reception,pos,95
+La camera è ben mantenuta,Housekeeping,pos,96
+Il buffet è poco varia,F&B,neg,97
+Il personale si è dimostrato disorganizzato,Reception,neg,98
+Il personale è lento,Reception,neg,99
+La camera risulta in ottime condizioni,Housekeeping,pos,100
+L'accoglienza è stata ben organizzato,Reception,pos,101
+Durante il soggiorno la camera è stata non pulita,Housekeeping,neg,102
+Il buffet è non soddisfacente,F&B,neg,103
+L'offerta gastronomica è di qualità,F&B,pos,104
+La camera si presenta perfettamente ordinata,Housekeeping,pos,105
+La reception risulta cordiale,Reception,pos,106
+Durante il soggiorno la camera è stata maleodorante,Housekeeping,neg,107
+Durante il soggiorno la camera è stata molto pulita,Housekeeping,pos,108
+Il livello di pulizia è con scarsa igiene,Housekeeping,neg,109
+Durante il soggiorno il cibo è varia e gustosa,F&B,pos,110
+Il servizio di ristorazione è di bassa qualità,F&B,neg,111
+La camera è igienizzata correttamente,Housekeeping,pos,112
+L'offerta gastronomica è deludente,F&B,neg,113
+Il servizio di ristorazione è scarsa,F&B,neg,114
+Durante il soggiorno il cibo è soddisfacente,F&B,pos,115
+Abbiamo trovato la camera piena di polvere,Housekeeping,neg,116
+Durante il soggiorno il personale è stato attento alle richieste,Reception,pos,117
+Abbiamo trovato la camera perfettamente ordinata,Housekeeping,pos,118
+L'accoglienza è stata cordiale,Reception,pos,119
+Abbiamo trovato la camera pulita e ordinata,Housekeeping,pos,120
+Il buffet è varia e gustosa,F&B,pos,121
+Il personale è ben organizzato,Reception,pos,122
+La camera si presenta sporca,Housekeeping,neg,123
+Durante il soggiorno il personale è stato scortese,Reception,neg,124
+La qualità del cibo è soddisfacente,F&B,pos,125
+Il buffet è di qualità,F&B,pos,126
+La qualità del cibo è di qualità,F&B,pos,127
+La camera risulta ben mantenuta,Housekeeping,pos,128
+Il personale si è dimostrato lento,Reception,neg,129
+La qualità del cibo è ottima,F&B,pos,130
+Il livello di pulizia è impeccabile,Housekeeping,pos,131
+Durante il soggiorno la camera è stata sporca,Housekeeping,neg,132
+La colazione è scarsa,F&B,neg,133
+La camera risulta non pulita,Housekeeping,neg,134
+La camera risulta sporca,Housekeeping,neg,135
+Durante il soggiorno il cibo è fredda,F&B,neg,136
+Il personale è molto disponibile,Reception,pos,137
+Durante il soggiorno la camera è stata in ottime condizioni,Housekeeping,pos,138
+La reception risulta lento,Reception,neg,139
+Il personale è poco disponibile,Reception,neg,140
+La reception risulta inefficiente,Reception,neg,141
+Il personale è efficiente,Reception,pos,142
+La camera si presenta con scarsa igiene,Housekeeping,neg,143
+Abbiamo trovato la camera igienizzata correttamente,Housekeeping,pos,144
+Il servizio di ristorazione è fredda,F&B,neg,145
+Durante il soggiorno il cibo è apprezzabile,F&B,pos,146
+Il buffet è apprezzabile,F&B,pos,147
+La colazione è poco varia,F&B,neg,148
+Il servizio di reception è cordiale,Reception,pos,149
+Abbiamo trovato la camera non pulita,Housekeeping,neg,150
+Il servizio di reception è professionale,Reception,pos,151
+La camera risulta impeccabile,Housekeeping,pos,152
+L'offerta gastronomica è scarsa,F&B,neg,153
+Durante il soggiorno la camera è stata ben curata,Housekeeping,pos,154
+La reception risulta disorganizzato,Reception,neg,155
+La qualità del cibo è ben preparata,F&B,pos,156
+La camera si presenta poco curata,Housekeeping,neg,157
+La camera risulta trascurata,Housekeeping,neg,158
+La reception risulta efficiente,Reception,pos,159
+La camera è fresca e pulita,Housekeeping,pos,160
+Abbiamo trovato la camera trascurata,Housekeeping,neg,161
+Durante il soggiorno il cibo è scarsa,F&B,neg,162
+La qualità del cibo è buona,F&B,pos,163
+La camera risulta ben curata,Housekeeping,pos,164
+L'accoglienza è stata molto disponibile,Reception,pos,165
+La reception risulta poco disponibile,Reception,neg,166
+Il livello di pulizia è trascurata,Housekeeping,neg,167
+Durante il soggiorno il cibo è deludente,F&B,neg,168
+La camera si presenta igienizzata correttamente,Housekeeping,pos,169
+La camera si presenta pulita e ordinata,Housekeeping,pos,170
+La reception risulta molto disponibile,Reception,pos,171
+Abbiamo trovato la camera in ottime condizioni,Housekeeping,pos,172
+Il personale è disorganizzato,Reception,neg,173
+Durante il soggiorno la camera è stata fresca e pulita,Housekeeping,pos,174
+Il buffet è di bassa qualità,F&B,neg,175
+Il servizio di reception è poco disponibile,Reception,neg,176
+Durante il soggiorno la camera è stata impeccabile,Housekeeping,pos,177
+Il personale si è dimostrato poco disponibile,Reception,neg,178
+La reception risulta gentile,Reception,pos,179
+La reception risulta poco professionale,Reception,neg,180
+La colazione è di qualità,F&B,pos,181
+Il livello di pulizia è ben curata,Housekeeping,pos,182
+La camera è con scarsa igiene,Housekeeping,neg,183
+Durante il soggiorno il personale è stato gentile,Reception,pos,184
+Il personale si è dimostrato inefficiente,Reception,neg,185
+Il servizio di reception è poco professionale,Reception,neg,186
+Il livello di pulizia è maleodorante,Housekeeping,neg,187
+Il personale si è dimostrato ben organizzato,Reception,pos,188
+Il personale è inefficiente,Reception,neg,189
+Durante il soggiorno il cibo è ben preparata,F&B,pos,190
+La camera risulta molto pulita,Housekeeping,pos,191
+Il livello di pulizia è poco curata,Housekeeping,neg,192
+L'offerta gastronomica è buona,F&B,pos,193
+Durante il soggiorno il personale è stato molto disponibile,Reception,pos,194
+La camera è non pulita,Housekeeping,neg,195
+Abbiamo trovato la camera fresca e pulita,Housekeeping,pos,196
+La camera si presenta ben mantenuta,Housekeeping,pos,197
+La camera risulta poco curata,Housekeeping,neg,198
+La camera risulta con scarsa igiene,Housekeeping,neg,199
+La camera è molto pulita,Housekeeping,pos,200
+Durante il soggiorno il personale è stato poco professionale,Reception,neg,201
+Il livello di pulizia è in ottime condizioni,Housekeeping,pos,202
+Durante il soggiorno la camera è stata piena di polvere,Housekeeping,neg,203
+L'offerta gastronomica è ben preparata,F&B,pos,204
+Il personale è poco professionale,Reception,neg,205
+La qualità del cibo è varia e gustosa,F&B,pos,206
+Durante il soggiorno la camera è stata poco curata,Housekeeping,neg,207
+La qualità del cibo è non soddisfacente,F&B,neg,208
+La qualità del cibo è poco varia,F&B,neg,209
+La reception risulta ben organizzato,Reception,pos,210
+Il personale si è dimostrato gentile,Reception,pos,211
+La camera risulta fresca e pulita,Housekeeping,pos,212
+Il buffet è fredda,F&B,neg,213
+Durante il soggiorno la camera è stata trascurata,Housekeeping,neg,214
 La camera è perfettamente ordinata,Housekeeping,pos,215
-L'offerta gastronomica è buona,F&B,pos,216
-Durante il soggiorno il cibo è non soddisfacente,F&B,neg,217
-Il personale si è dimostrato molto disponibile,Reception,pos,218
-La colazione è di qualità,F&B,pos,219
-La camera si presenta ben mantenuta,Housekeeping,pos,220
-La colazione è buona,F&B,pos,221
-Il personale è disorganizzato,Reception,neg,222
-Il personale è ben organizzato,Reception,pos,223
-La reception risulta lento,Reception,neg,224
-Abbiamo trovato la camera pulita e ordinata,Housekeeping,pos,225
-Il servizio di reception è scortese,Reception,neg,226
-Il servizio di reception è cordiale,Reception,pos,227
-Durante il soggiorno la camera è stata impeccabile,Housekeeping,pos,228
-La reception risulta inefficiente,Reception,neg,229
-Il servizio di reception è ben organizzato,Reception,pos,230
-La camera risulta in ottime condizioni,Housekeeping,pos,231
-La camera risulta sporca,Housekeeping,neg,232
-Il livello di pulizia è poco curata,Housekeeping,neg,233
-Il servizio di ristorazione è scarsa,F&B,neg,234
-La reception risulta professionale,Reception,pos,235
-L'offerta gastronomica è apprezzabile,F&B,pos,236
-Durante il soggiorno il cibo è di qualità,F&B,pos,237
-Durante il soggiorno la camera è stata ben curata,Housekeeping,pos,238
-Durante il soggiorno il cibo è deludente,F&B,neg,239
-Durante il soggiorno la camera è stata molto pulita,Housekeeping,pos,240
-Abbiamo trovato la camera piena di polvere,Housekeeping,neg,241
-Il buffet è di bassa qualità,F&B,neg,242
-La camera si presenta igienizzata correttamente,Housekeeping,pos,243
-Il personale è poco professionale,Reception,neg,244
-La camera risulta impeccabile,Housekeeping,pos,245
-Durante il soggiorno il personale è stato professionale,Reception,pos,246
-Il servizio di ristorazione è deludente,F&B,neg,247
-Abbiamo trovato la camera ben curata,Housekeeping,pos,248
-Il buffet è apprezzabile,F&B,pos,249
+Durante il soggiorno il cibo è buona,F&B,pos,216
+La qualità del cibo è deludente,F&B,neg,217
+La camera è in ottime condizioni,Housekeeping,pos,218
+Durante il soggiorno il cibo è poco varia,F&B,neg,219
+Abbiamo trovato la camera maleodorante,Housekeeping,neg,220
+Il buffet è deludente,F&B,neg,221
+Il personale è professionale,Reception,pos,222
+L'accoglienza è stata scortese,Reception,neg,223
+La camera risulta pulita e ordinata,Housekeeping,pos,224
+L'accoglienza è stata poco professionale,Reception,neg,225
+Il livello di pulizia è ben mantenuta,Housekeeping,pos,226
+La camera si presenta impeccabile,Housekeeping,pos,227
+Il livello di pulizia è piena di polvere,Housekeeping,neg,228
+L'accoglienza è stata lento,Reception,neg,229
+Abbiamo trovato la camera con scarsa igiene,Housekeeping,neg,230
+Il personale si è dimostrato professionale,Reception,pos,231
+Il buffet è buona,F&B,pos,232
+Il personale si è dimostrato molto disponibile,Reception,pos,233
+Il servizio di reception è gentile,Reception,pos,234
+Il servizio di ristorazione è deludente,F&B,neg,235
+Il personale è scortese,Reception,neg,236
+La camera si presenta maleodorante,Housekeeping,neg,237
+Abbiamo trovato la camera ben curata,Housekeeping,pos,238
+La colazione è ottima,F&B,pos,239
+Abbiamo trovato la camera impeccabile,Housekeeping,pos,240
+La camera si presenta molto pulita,Housekeeping,pos,241
+La colazione è fredda,F&B,neg,242
+La camera è piena di polvere,Housekeeping,neg,243
+Il livello di pulizia è igienizzata correttamente,Housekeeping,pos,244
+Durante il soggiorno la camera è stata igienizzata correttamente,Housekeeping,pos,245
+La camera si presenta in ottime condizioni,Housekeeping,pos,246
+L'offerta gastronomica è poco varia,F&B,neg,247
+Il personale è gentile,Reception,pos,248
+Il personale si è dimostrato poco professionale,Reception,neg,249
