@@ -2,9 +2,9 @@ id,text,department,sentiment
 195,Ristorante eccellente con piatti gustosi,F&B,pos
 79,Ristorante eccellente con piatti gustosi,F&B,pos
 230,Servizio di pulizia superficiale e poco accurato,Housekeeping,neg
-109,"Pulizia eccellente, bagno impeccabile e ambiente igienizzato",Housekeeping,pos
+"109,""Pulizia eccellente, bagno impeccabile e ambiente igienizzato"",Housekeeping,pos"
 22,Hotel un po' retrò nelle immediate vicinanze della stazione ferroviaria di Bari. Internamente curato. Stanze spaziose e confortevoli. Silenziose la sera almeno lato strada. Molto pulite. Reception cortese. Buona la prima colazione.,Reception,pos
-"32,""Tutto perfetto. Pulizia, ordine e cortesia. La proprietaria molto disponibile e sempre reperibile. Lo consiglio davvero"",Housekeeping,pos",,,
+"32,""Tutto perfetto. Pulizia, ordine e cortesia. La proprietaria molto disponibile e sempre reperibile. Lo consiglio davvero"",Housekeeping,pos"
 84,Bagno non pulito e cattivo odore,Housekeeping,neg
 118,Colazione scarsa e poco varia anche se qualcosa mancava,F&B,neg
 132,Ampia scelta di cibo dolce e salato al buffet,F&B,pos
@@ -13,90 +13,90 @@ id,text,department,sentiment
 10,Check-in veloce e personale molto gentile,Reception,pos
 73,Procedure di check-in e check-out semplici e veloci,Reception,pos
 220,Procedure lente e disorganizzate,Reception,neg
-28,"Reception disponibile e professionale, risposte rapide!!! esperienza altalenante",Reception,pos
-82,"Stanza sempre pulita ogni giorno, servizio rifacimento letto preciso",Housekeeping,pos
+"28,""Reception disponibile e professionale, risposte rapide!!! esperienza altalenante"",Reception,pos"
+"82,""Stanza sempre pulita ogni giorno, servizio rifacimento letto preciso"",Housekeeping,pos"
 132,AMPIA SCELTA DI CIBO DOLCE E SALATO AL BUFFET MA NON SEMPRE PERFETTO,F&B,pos
-6,"Accoglienza ottima, personale cortese e sorridente",Reception,pos
-218,"Camera luminosa, pavimenti puliti e nessuna polvere",Housekeeping,pos
+"6,""Accoglienza ottima, personale cortese e sorridente"",Reception,pos"
+"218,""Camera luminosa, pavimenti puliti e nessuna polvere"",Housekeeping,pos"
 198,Servizio lento durante i pasti ma non sempre perfetto,F&B,neg
-146,"Pulizia eccellente, bagno impeccabile e ambiente igienizzato",Housekeeping,pos
+"146,""Pulizia eccellente, bagno impeccabile e ambiente igienizzato"",Housekeeping,pos"
 167,Servizio lento durante i pasti,F&B,neg
-218,"CAMERA LUMINOSA, PAVIMENTI PULITI E NESSUNA POLVERE MA NON SEMPRE PERFETTO",Housekeeping,pos
-172,"Camera molto pulita e ordinata, biancheria profumata",Housekeeping,pos
+"218,""CAMERA LUMINOSA, PAVIMENTI PULITI E NESSUNA POLVERE MA NON SEMPRE PERFETTO"",Housekeeping,pos"
+"172,""Camera molto pulita e ordinata, biancheria profumata"",Housekeeping,pos"
 81,Servizio di pulizia superficiale e poco accurato,Housekeeping,neg
-"45,""Siamo stati in questo posto per due notti.. La posizione è ottima, la stanza grande e molto pulita, forse per la presenza di molte scale strette non è adatta per delle famiglie con passeggini come la nostra.Colazione da migliorare..lo consiglio per ragazzi e giovani coppie.."",Housekeeping,pos",,,
-185,"Stanza sempre pulita ogni giorno, servizio rifacimento letto preciso",Housekeeping,pos
-39,"PULIZIA ECCELLENTE, BAGNO IMPECCABILE E AMBIENTE IGIENIZZATO MA NON SEMPRE PERFETTO!!!",Housekeeping,pos
+"45,""Siamo stati in questo posto per due notti.. La posizione è ottima, la stanza grande e molto pulita, forse per la presenza di molte scale strette non è adatta per delle famiglie con passeggini come la nostra.Colazione da migliorare..lo consiglio per ragazzi e giovani coppie.."",Housekeeping,pos,,,"
+"185,""Stanza sempre pulita ogni giorno, servizio rifacimento letto preciso"",Housekeeping,pos"
+"39,""PULIZIA ECCELLENTE, BAGNO IMPECCABILE E AMBIENTE IGIENIZZATO MA NON SEMPRE PERFETTO!!!"",Housekeeping,pos"
 6,Sono ritornato in questo albergo a distanza di anni e ho apprezzato la ristrutturazione che lo ha reso ancora più confortevole. Posizione centralissima e personale efficiente e molto cortese. Tariffe un po' troppo elevate.,Reception,pos
 7,Terribile. Sono stato derubato di tutti i miei effetti personali e valigie mentre andavo in questo hotel e quando ho chiamato per dire loro che non potevo rimanere perché non avevo effetti personali e non avrebbero cancellato la mia prenotazione e comunque mi hanno addebitato - servizio clienti TERRIBILE.,Reception,neg
 0,Servizio colazzione rapido e cibo di qualità,F&B,pos
 231,Servizio colazzione rapido e cibo di qualità,F&B,pos
-78,"Camera sporca, polvere visibile sui mobili anche se qualcosa mancava",Housekeeping,neg
+"78,""Camera sporca, polvere visibile sui mobili anche se qualcosa mancava"",Housekeeping,neg"
 72,Scarsa igiene nella stanza e pavimenti sporchi,Housekeeping,neg
-148,"Reception disponibile e professionale, risposte rapide",Reception,pos
-76,"Accoglienza ottima, personale cortese e sorridente",Reception,pos
-2,"Pulizia eccellente, bagno impeccabile e ambiente igienizzato",Housekeeping,pos
+"148,""Reception disponibile e professionale, risposte rapide"",Reception,pos"
+"76,""Accoglienza ottima, personale cortese e sorridente"",Reception,pos"
+"2,""Pulizia eccellente, bagno impeccabile e ambiente igienizzato"",Housekeeping,pos"
 165,Procedure lente e disorganizzate,Reception,neg
-166,"Reception disponibile e professionale, risposte rapide esperienza altalenante",Reception,pos
+"166,""Reception disponibile e professionale, risposte rapide esperienza altalenante"",Reception,pos"
 178,Ampia scelta di cibo dolce e salato al buffet!!!,F&B,pos
-199,"Stanza sempre pulita ogni giorno, servizio rifacimento letto preciso",Housekeeping,pos
+"199,""Stanza sempre pulita ogni giorno, servizio rifacimento letto preciso"",Housekeeping,pos"
 209,Ottima igiene generale della stanza e cambio asciugamani regolare,Housekeeping,pos
 104,Ristorante eccellente con piatti gustosi ma non sempre perfetto!!!,F&B,pos
 77,Buffet povero e poca scelta,F&B,neg
 153,Letto non rifatto correttamente e lenzuola macchiate,Housekeeping,neg
 136,Colazione ricca e varia con prodotti freschi ma non sempre perfetto,F&B,pos
-"21,""Questo hotel è costruito vicino alle ferrovie e su una strada piuttosto trafficata. Questo hotel ha ZERO insonorizzazione, quindi ogni volta che un treno passa o un'auto è sulla strada è come se fosse nella tua stanza! ! ! Potevo dormire solo dalle 0100 alle 0500 del mattino quando non ci sono treni! ! Per favore, stai lontano. La camera era pulita e internet era veloce ma il rumore era estremamente fastidioso."",Housekeeping,neg",,,
-"8,""Le camere non sono brutte ma servizi inesistenti e personale non cordiale. Tv in camera con 4 canali, Wi-Fi debole, parcheggio 25€ al giorno, colazione nella media. Sinceramente con 100€ al giorno mi aspetterei molto di più, non basta avere il prezzo alto per essere un 4 stelle. Bari offre sicuramente di meglio."",Reception,neg",,,
+"21,""Questo hotel è costruito vicino alle ferrovie e su una strada piuttosto trafficata. Questo hotel ha ZERO insonorizzazione, quindi ogni volta che un treno passa o un'auto è sulla strada è come se fosse nella tua stanza! ! ! Potevo dormire solo dalle 0100 alle 0500 del mattino quando non ci sono treni! ! Per favore, stai lontano. La camera era pulita e internet era veloce ma il rumore era estremamente fastidioso."",Housekeeping,neg,,,"
+"8,""Le camere non sono brutte ma servizi inesistenti e personale non cordiale. Tv in camera con 4 canali, Wi-Fi debole, parcheggio 25€ al giorno, colazione nella media. Sinceramente con 100€ al giorno mi aspetterei molto di più, non basta avere il prezzo alto per essere un 4 stelle. Bari offre sicuramente di meglio."",Reception,neg,,,"
 30,CHECK-IN VELOCE E PERSONALE MOLTO GENTILE MA NON SEMPRE PERFETTO anche se qualcosa mancava,Reception,pos
-"12,""Siamo stati accolti alla reception con freddezza, in uscita ed entrata Scarseggiano i saluti mancano I sorrisi , prezzi consigliati da booking sono inferiori , parola d'ordine addebito carta di credito ,camera confortevole ,sodfisfacente la colazione . Spero si ravvedano x la soddisfazione dei clienti."",Reception,neg",,,
+"12,""Siamo stati accolti alla reception con freddezza, in uscita ed entrata Scarseggiano i saluti mancano I sorrisi , prezzi consigliati da booking sono inferiori , parola d'ordine addebito carta di credito ,camera confortevole ,sodfisfacente la colazione . Spero si ravvedano x la soddisfazione dei clienti."",Reception,neg,,,"
 144,SERVIZIO COLAZIONE RAPIDO E CIBO DI QUALITÀ,F&B,pos
-70,"Reception disponibile e professionale, risposte rapide",Reception,pos
+"70,""Reception disponibile e professionale, risposte rapide"",Reception,pos"
 210,Colazione ricca e varia con prodotti freschi,F&B,pos
 120,Staff della reception molto efficiente e disponibile 24h,Reception,pos
 69,Servizio colazione rapido e cibo di qualità ma non sempre perfetto,F&B,pos
 55,Buffet povero e poca scelta,F&B,neg
-"36,""Siamo stati ospiti per una notte:la posizione del B&B è fantastica perché ti permette di girare Bari vecchia in tranquillità.Due note negative:stanza al terzo piano accessibile con scala a chiocciola!!!!e check-in alle 19 con un aggravio per 15 minuti di 15 euro credo sia una richiesta eccessiva!!!!!Se poi vuoi lasciare il bagaglio dopo le 10,30 check out viene chiesta un ulteriore cifra di 5 euro!!!!Non mi soffermo su altri particolari."",Reception,neg",,,
-"39,""La posizione del B&B è eccellente, essendo situato molto vicino alla cattedrale di Bari. La camera era ampia e dotata di servizi (frigorifero, macchina per il caffè). Tuttavia il frigorifero era molto rumoroso e il bagno molto piccolo. Da esso veniva anche qualche cattivo odore. Inoltre essendo la camera al primo piano non era molto luminosa. La reception avviene dietro appuntamento."",Housekeeping,neg",,,
+"36,""Siamo stati ospiti per una notte:la posizione del B&B è fantastica perché ti permette di girare Bari vecchia in tranquillità.Due note negative:stanza al terzo piano accessibile con scala a chiocciola!!!!e check-in alle 19 con un aggravio per 15 minuti di 15 euro credo sia una richiesta eccessiva!!!!!Se poi vuoi lasciare il bagaglio dopo le 10,30 check out viene chiesta un ulteriore cifra di 5 euro!!!!Non mi soffermo su altri particolari."",Reception,neg,,,"
+"39,""La posizione del B&B è eccellente, essendo situato molto vicino alla cattedrale di Bari. La camera era ampia e dotata di servizi (frigorifero, macchina per il caffè). Tuttavia il frigorifero era molto rumoroso e il bagno molto piccolo. Da esso veniva anche qualche cattivo odore. Inoltre essendo la camera al primo piano non era molto luminosa. La reception avviene dietro appuntamento."",Housekeeping,neg,,,"
 86,Ottima igiene generale della stanza e cambio asciugamani regolare,Housekeeping,pos
-203,"Camera molto pulita e ordinata, biancheria profumata!!!",Housekeeping,pos
-152,"Stanza sempre pulita ogni giorno, servizio rifacimento letto preciso",Housekeeping,pos
-238,"Stanza sempre pulita ogni giorno, servizio rifacimento letto preciso",Housekeeping,pos
+"203,""Camera molto pulita e ordinata, biancheria profumata!!!"",Housekeeping,pos"
+"152,""Stanza sempre pulita ogni giorno, servizio rifacimento letto preciso"",Housekeeping,pos"
+"238,""Stanza sempre pulita ogni giorno, servizio rifacimento letto preciso"",Housekeeping,pos"
 30,Check-in veloce e personale molto gentile,Reception,pos
 177,Ampia scelta di cibo dolce e salato al buffet,F&B,pos
 104,Ristorante eccellente con piatti gustosi,F&B,pos
 9,Colazione ricca e varia con prodotti freschi,F&B,pos
-145,"Pulizia eccellente, bagno impeccabile e ambiente igienizzato",Housekeeping,pos
+"145,""Pulizia eccellente, bagno impeccabile e ambiente igienizzato"",Housekeeping,pos"
 134,PROCEDURE LENTE E DISORGANIZZATE!!! non tutto era perfetto,Reception,neg
 31,Buona la posizione non lontana dalla stazione di Bari Centrale e da Corso Cavour. Colazione da migliorare. Camera non spaziosa come dovrebbe essere in un hotel a 3 stelle. La pulizia non è delle migliori.,F&B,neg
 90,Colazione ricca e varia con prodotti freschi,F&B,pos
-78,"Camera sporca, polvere visibile sui mobili",Housekeeping,neg
-"16,""stanze molto pulite e organizzazione del personale ottima e luogo buono perché vicino al centro , ma la colazione lascia desiderare poiché da poca scelta,dovrebbe essere arricchita dando più possibilità di scegliere per esempio nel beveraggio"",F%B,neg",,,
+"78,""Camera sporca, polvere visibile sui mobili"",Housekeeping,neg"
+"16,""stanze molto pulite e organizzazione del personale ottima e luogo buono perché vicino al centro , ma la colazione lascia desiderare poiché da poca scelta,dovrebbe essere arricchita dando più possibilità di scegliere per esempio nel beveraggio"",F%B,neg,,,"
 61,Ristorante eccellente con piatti gustosi!!!,F&B,pos
-117,"Stanza sempre pulita ogni giorno, servizio rifacimento letto preciso",Housekeeping,pos
+"117,""Stanza sempre pulita ogni giorno, servizio rifacimento letto preciso"",Housekeeping,pos"
 83,Servizio di pulizia superficiale e poco accurato,Housekeeping,neg
 131,SCARSA COMUNICAZIONE ALLA RECEPTION MA NON SEMPRE PERFETTO,Reception,neg
-155,"Reception disponibile e professionale, risposte rapide",Reception,pos
+"155,""Reception disponibile e professionale, risposte rapide"",Reception,pos"
 149,Procedure di check-in e check-out semplici e veloci,Reception,pos
-"38,""Sicuramente tornerò in quell'hotel. Buona colazione dolce italiana con ottimo caffè e croissant. vicino alla città vecchia e nuova. pulito e ordinato. Camera grande con tv, caffè espresso. Riordina ogni giorno Altamente raccomandato"",F&B,pos",,,
+"38,""Sicuramente tornerò in quell'hotel. Buona colazione dolce italiana con ottimo caffè e croissant. vicino alla città vecchia e nuova. pulito e ordinato. Camera grande con tv, caffè espresso. Riordina ogni giorno Altamente raccomandato"",F&B,pos,,,"
 163,Colazione ricca e varia con prodotti freschi,F&B,pos
 75,Procedure di check-in e check-out semplici e veloci,Reception,pos
-70,"Reception disponibile e professionale, risposte rapide ma non sempre perfetto",Reception,pos
+"70,""Reception disponibile e professionale, risposte rapide ma non sempre perfetto"",Reception,pos"
 229,Buffet povero e poca scelta,F&B,neg
 68,Procedure lente e disorganizzate,Reception,neg
-"46,""Bellissimo b&b, posizione perfetta, personale fantastico! Stanza accogliente, pulitissima e dotata di ogni comfort! Terrazzo panoramico con una vista mozzafiato sullo splendido centro storico della città di Bari. Locali della movida cittadina a due passi."",Reception,pos",,,
-63,"Reception disponibile e professionale, risposte rapide",Reception,pos
+"46,""Bellissimo b&b, posizione perfetta, personale fantastico! Stanza accogliente, pulitissima e dotata di ogni comfort! Terrazzo panoramico con una vista mozzafiato sullo splendido centro storico della città di Bari. Locali della movida cittadina a due passi."",Reception,pos,,,"
+"63,""Reception disponibile e professionale, risposte rapide"",Reception,pos"
 231,Servizio colazione rapido e cibo di qualità,F&B,pos
-244,"STANZA SEMPRE PULITA OGNI GIORNO, SERVIZIO RIFACIMENTO LETTO PRECISO MA NON SEMPRE PERFETTO!!! non tutto era perfetto",Housekeeping,pos
+"244,""STANZA SEMPRE PULITA OGNI GIORNO, SERVIZIO RIFACIMENTO LETTO PRECISO MA NON SEMPRE PERFETTO!!! non tutto era perfetto"",Housekeeping,pos"
 215,Ristorante eccellente con piatti gustosi,F&B,pos
-"9,""Ottimo hotel nel cuore della splendida Bari. Receptionist disponibili, gentili donne delle pulizie e personale eccellente per la colazione. La nostra camera era così grande e confortevole. Avevamo molte attrazioni raggiungibili a piedi dall'hotel."",Reception,neg",,,
-"42,""Ci siamo stati due volte e totalmente ritorno se si arriva a Bari un giorno. Le camere sono pulite e spaziose, la posizione è eccellente, la terrazza sul tetto dispone di una bella vista, non si potrebbe chiedere di più. Rosy è molto disponibile e cordiale."",Housekeeping,pos",,,
+"9,""Ottimo hotel nel cuore della splendida Bari. Receptionist disponibili, gentili donne delle pulizie e personale eccellente per la colazione. La nostra camera era così grande e confortevole. Avevamo molte attrazioni raggiungibili a piedi dall'hotel."",Reception,neg,,,"
+"42,""Ci siamo stati due volte e totalmente ritorno se si arriva a Bari un giorno. Le camere sono pulite e spaziose, la posizione è eccellente, la terrazza sul tetto dispone di una bella vista, non si potrebbe chiedere di più. Rosy è molto disponibile e cordiale."",Housekeeping,pos,,,"
 33,Servizio colazione rapido e cibo di qualità,F&B,pos
 157,Buffet abbondante e qualità del cibo ottima!!!,F&B,pos
 34,Buffet abbondante e qualità del cibo ottima!!!,F&B,pos
 0,Servizio colazione rapido e cibo di qualità,F&B,pos
-11,"Stanza sempre pulita ogni giorno, servizio rifacimento letto preciso",Housekeeping,pos
-25,"Reception disponibile e professionale, risposte rapide!!!",Reception,pos
-22,"Stanza sempre pulita ogni giorno, servizio rifacimento letto preciso",Housekeeping,pos
+"11,""Stanza sempre pulita ogni giorno, servizio rifacimento letto preciso"",Housekeeping,pos"
+"25,""Reception disponibile e professionale, risposte rapide!!!"",Reception,pos"
+"22,""Stanza sempre pulita ogni giorno, servizio rifacimento letto preciso"",Housekeeping,pos"
 119,Colazione ricca e varia con prodotti freschi,F&B,pos
 101,Servizio lento durante i pasti,F&B,neg
 131,Scarsa comunicazione alla reception,Reception,neg
@@ -113,74 +113,74 @@ id,text,department,sentiment
 158,Bagno non pulito e cattivo odore,Housekeeping,neg
 15,Ampia scelta di cibo dolce e salato al buffet,F&B,pos
 84,Bagno non pulito e cattivo odore ma non sempre perfetto,Housekeeping,neg
-39,"Pulizia eccellente, bagno impeccabile e ambiente igienizzato",Housekeeping,pos
+"39,""Pulizia eccellente, bagno impeccabile e ambiente igienizzato"",Housekeeping,pos"
 54,Staff della reception molto efficiente e disponibile 24h,Reception,pos
-"34,""Camera confortevole,in ottima posizione e con tutti i confort necessari ( e non!) Piccoli dettagli, quale un semplice caffè offerto o un cioccolatino sul cuscino, possono rendere un semplice soggiorno in un piccolo grande piacere."",Housekeeping,pos",,,
+"34,""Camera confortevole,in ottima posizione e con tutti i confort necessari ( e non!) Piccoli dettagli, quale un semplice caffè offerto o un cioccolatino sul cuscino, possono rendere un semplice soggiorno in un piccolo grande piacere."",Housekeeping,pos,,,"
 46,Procedure di check-in e check-out semplici e veloci,Reception,pos
 93,Ristorante eccellente con piatti gustosi,F&B,pos
-228,"Pulizia eccellente, bagno impeccabile e ambiente igienizzato",Housekeeping,pos
+"228,""Pulizia eccellente, bagno impeccabile e ambiente igienizzato"",Housekeeping,pos"
 113,BUFFET POVERO E POCA SCELTA MA NON SEMPRE PERFETTO!!! anche se qualcosa mancava,F&B,neg
 243,Servizio colazione rapido e cibo di qualità ma non sempre perfetto,F&B,pos
 223,Letto non rifatto correttamente e lenzuola macchiate ma non sempre perfetto,Housekeeping,neg
-248,"Camera molto pulita e ordinata, biancheria profumata",Housekeeping,pos
-"49,""Consiglio questa struttura: ottima posizione , facilmente raggiungibile e dotata di parcheggio, stanze pulite ed accoglienti. Personale gentile e disponibile. La struttura è grande e definita nei particolari. Le camere sono grandi . Unica pecca la mancanza di un piccolo frigo in camera."",Reception,pos",,,
+"248,""Camera molto pulita e ordinata, biancheria profumata"",Housekeeping,pos"
+"49,""Consiglio questa struttura: ottima posizione , facilmente raggiungibile e dotata di parcheggio, stanze pulite ed accoglienti. Personale gentile e disponibile. La struttura è grande e definita nei particolari. Le camere sono grandi . Unica pecca la mancanza di un piccolo frigo in camera."",Reception,pos,,,"
 239,Colazione ricca e varia con prodotti freschi ma non sempre perfetto,F&B,pos
-194,"Camera luminosa, pavimenti puliti e nessuna polvere ma non sempre perfetto",Housekeeping,pos
+"194,""Camera luminosa, pavimenti puliti e nessuna polvere ma non sempre perfetto"",Housekeeping,pos"
 115,Personale poco cordiale alla reception,Reception,neg
 204,Ristorante eccellente con piatti gustosi,F&B,pos
 85,Scarsa comunicazione alla reception,Reception,neg
 107,Staff della reception molto efficiente e disponibile 24h,Reception,pos
-111,"Camera luminosa, pavimenti puliti e nessuna polvere esperienza altalenante",Housekeeping,pos
-60,"CAMERA LUMINOSA, PAVIMENTI PULITI E NESSUNA POLVERE",Housekeeping,pos
-148,"Reception disponibile e professionale, risposte rapide ma non sempre perfetto!!! ma potrebbe migliorare",Reception,pos
+"111,""Camera luminosa, pavimenti puliti e nessuna polvere esperienza altalenante"",Housekeeping,pos"
+"60,""CAMERA LUMINOSA, PAVIMENTI PULITI E NESSUNA POLVERE"",Housekeeping,pos"
+"148,""Reception disponibile e professionale, risposte rapide ma non sempre perfetto!!! ma potrebbe migliorare"",Reception,pos"
 69,Servizio colazione rapido e cibo di qualità,F&B,pos
-11,"Stanza sempre pulitA ogni giorno, servizio rifacimento letto preciso ma non sempre perfetto",Housekeeping,pos
-"17,""Con la mia famiglia abbiamo partecipate a DJTen.Ottimo hotel,vicino al centro storico ed alla stazione dei treni.Pulito,staff gentile la colazione molto varia e gustosa(anche la pizza barese).Molto gradita la palestra al 5 piano."",F&B,pos",,,
-187,"Reception disponibile e professionale, risposte rapide",Reception,pos
+"11,""Stanza sempre pulitA ogni giorno, servizio rifacimento letto preciso ma non sempre perfetto"",Housekeeping,pos"
+"17,""Con la mia famiglia abbiamo partecipate a DJTen.Ottimo hotel,vicino al centro storico ed alla stazione dei treni.Pulito,staff gentile la colazione molto varia e gustosa(anche la pizza barese).Molto gradita la palestra al 5 piano."",F&B,pos,,,"
+"187,""Reception disponibile e professionale, risposte rapide"",Reception,pos"
 182,Servizio colazione rapido e cibo di qualità,F&B,pos
 124,Buffet abbondante e qualità del cibo ottima,F&B,pos
 143,Personale poco cordiale alla reception,Reception,neg
 225,Colazione scarsa e poco varia,F&B,neg
 235,Buffet abbondante e qualità del cibo ottima,F&B,pos
 176,Qualità del cibo sotto le aspettative,F&B,neg
-"37,""Il b&b ha il grosso limite di non avere una reception e questo comporta numerosi disagi, a partire dal sovrapprezzo in caso di check-in e check out fuori orario fino al deposito bagagli a pagamento. Proprietaria abbastanza assente. Considerando che siamo a Bari, famosa per accoglienza, generosità e disponibilità, credo che sia un aspetto non trascurabile per un turista."",Reception,neg",,,
+"37,""Il b&b ha il grosso limite di non avere una reception e questo comporta numerosi disagi, a partire dal sovrapprezzo in caso di check-in e check out fuori orario fino al deposito bagagli a pagamento. Proprietaria abbastanza assente. Considerando che siamo a Bari, famosa per accoglienza, generosità e disponibilità, credo che sia un aspetto non trascurabile per un turista."",Reception,neg,,,"
 55,Buffet povero e poca scelta ma non sempre perfetto!!!,F&B,neg
 249,Attesa molto lunga al check-in,Reception,neg
 133,Colazione ricca e varia con prodotti freschi non tutto era perfetto,F&B,pos
 24,Servizio colazione rapido e cibo di qualità,F&B,pos
 62,Scarsa igiene nella stanza e pavimenti sporchi,Housekeeping,neg
-117,"Stanza sempre pulita ogni giorno, servizo rifacimento letto preciso!!!",Housekeeping,pos
+"117,""Stanza sempre pulita ogni giorno, servizo rifacimento letto preciso!!!"",Housekeeping,pos"
 71,Servizio di pulizia superficiale e poco accurato ma non sempre perfetto!!! non tutto era perfetto,Housekeeping,neg
 222,Ampia scelta di cibo dolce e salato al buffet ma potrebbe migliorare,F&B,pos
-19,"Reception disponibile e professionale, risposte rapide",Reception,pos
-130,"Camera luminosa, pavimenti puliti e nessuna polvere ma non sempre perfetto",Housekeeping,pos
+"19,""Reception disponibile e professionale, risposte rapide"",Reception,pos"
+"130,""Camera luminosa, pavimenti puliti e nessuna polvere ma non sempre perfetto"",Housekeeping,pos"
 56,Bagno non pulito e cattivo odore,Housekeeping,neg
 140,Personale poco cordiale alla reception,Reception,neg
-31,"Reception disponibile e professionale, risposte rapide",Reception,pos
-145,"Pulizia eccellente, bagno impeccabile e ambiente igienizzato ma non sempre perfetto!!!",Housekeeping,pos
-221,"Camera luminosa, pavimenti puliti e nessuna polvere!!!",Housekeeping,pos
+"31,""Reception disponibile e professionale, risposte rapide"",Reception,pos"
+"145,""Pulizia eccellente, bagno impeccabile e ambiente igienizzato ma non sempre perfetto!!!"",Housekeeping,pos"
+"221,""Camera luminosa, pavimenti puliti e nessuna polvere!!!"",Housekeeping,pos"
 7,Scarsa comunicazione alla reception ma non sempre perfetto,Reception,neg
-238,"Stanza sempre pulita ogni giorno, servizio rifacimento letto preciso non tutto era perfetto",Housekeeping,pos
+"238,""Stanza sempre pulita ogni giorno, servizio rifacimento letto preciso non tutto era perfetto"",Housekeeping,pos"
 192,Servizio colazione rapido e cibo di qualità,F&B,pos
-25,"Reception disponibile e professionale, risposte rapide",Reception,pos
+"25,""Reception disponibile e professionale, risposte rapide"",Reception,pos"
 40,Scarsa igiene nella stanza e pavimenti sporchi,Housekeeping,neg
 42,Ristorante eccellente con piatti gustosi,F&B,pos
-99,"Camera sporca, polvere visibile sui mobili",Housekeeping,neg
-"23,""Ho prenotato l'hotel per i clienti, perché era vicino alla stazione dei treni. L'hotel era molto rumoroso, non avrebbero cambiato le stanze per i clienti in una posizione più tranquilla senza costi aggiuntivi, hanno ignorato le mie richieste inviate mesi prima - tutti insieme i clienti erano molto scontenti."",Reception,neg",,,
-219,"Reception disponibile e professionale, risposte rapide anche se qualcosa mancava",Reception,pos
+"99,""Camera sporca, polvere visibile sui mobili"",Housekeeping,neg"
+"23,""Ho prenotato l'hotel per i clienti, perché era vicino alla stazione dei treni. L'hotel era molto rumoroso, non avrebbero cambiato le stanze per i clienti in una posizione più tranquilla senza costi aggiuntivi, hanno ignorato le mie richieste inviate mesi prima - tutti insieme i clienti erano molto scontenti."",Reception,neg,,,"
+"219,""Reception disponibile e professionale, risposte rapide anche se qualcosa mancava"",Reception,pos"
 149,Procedure di check-in e check-out semplici e veloci anche se qualcosa mancava,Reception,pos
 68,Procedure lente e disorganizzate,Reception,neg
 154,Servizio colazione rapido e cibo di qualità,F&B,pos
 126,Staff della reception molto efficiente e disponibile 24h,Reception,pos
-37,"CAMERA LUMINOSA, PAVIMENTI PULITI E NESSUNA POLVERE anche se qualcosa mancava",Housekeeping,pos
+"37,""CAMERA LUMINOSA, PAVIMENTI PULITI E NESSUNA POLVERE anche se qualcosa mancava"",Housekeeping,pos"
 124,BUFFET ABBONDANTE E QUALITÀ DEL CIBO OTTIMA,F&B,pos
 174,Qualità del cibo sotto le aspettative,F&B,neg
-31,"Reception disponibile e professionale, risposte rapide",Reception,pos
+"31,""Reception disponibile e professionale, risposte rapide"",Reception,pos"
 113,Buffet povero e poca scelta,F&B,neg
 54,STAFF DELLA RECEPTION MOLTO EFFICIENTE E DISPONIBILE 24H,Reception,pos
 173,Staff della reception molto efficiente e disponibile 24h,Reception,pos
 112,PROCEDURE DI CHECK-IN E CHECK-OUT SEMPLICI E VELOCI MA NON SEMPRE PERFETTO!!!,Reception,pos
-208,"Stanza sempre pulita ogni giorno, servizio rifacimento letto preciso",Housekeeping,pos
+"208,""Stanza sempre pulita ogni giorno, servizio rifacimento letto preciso"",Housekeeping,pos"
 57,Ottima igiene generale della stanza e cambio asciugamani regolare,Housekeeping,pos
 5,Ottima igiene generale della stanza e cambio asciugamani regolare,Housekeeping,pos
 24,Servizio colazione rapido e cibo di qualità,F&B,pos
@@ -188,10 +188,10 @@ id,text,department,sentiment
 237,Letto non rifatto correttamente e lenzuola macchiate,Housekeeping,neg
 66,Ottima igiene generale della stanza e cambio asciugamani regolare,Housekeeping,pos
 249,Attesa molto lunga al check-in,Reception,neg
-"28,""Ottima posizione , ma il personale dovrebbe essere più cordiale visto che non sta parlando con i suoi amici ! Dizione ed educazione non sono per questo posto ! Ma tutto sommato a parte il personale da rivedere il posto è pulito e vicino alla stazione"",Reception,neg",,,
+"28,""Ottima posizione , ma il personale dovrebbe essere più cordiale visto che non sta parlando con i suoi amici ! Dizione ed educazione non sono per questo posto ! Ma tutto sommato a parte il personale da rivedere il posto è pulito e vicino alla stazione"",Reception,neg,,,"
 15,Ampia scelta di cibo dolce e salato al buffet!!!,F&B,pos
 201,Procedure lente e disorganizzate,Reception,neg
-196,"Reception disponibile e professionale, risposte rapide!!!",Reception,pos
+"196,""Reception disponibile e professionale, risposte rapide!!!"",Reception,pos"
 94,Cibo freddo e qualità bassa al ristorante,F&B,neg
 180,Bagno non pulito e cattivo odore,Housekeeping,neg
 234,Scarsa comunicazione alla reception,Reception,neg
@@ -203,153 +203,153 @@ id,text,department,sentiment
 5,Ottima igiene generale della stanza e cambio asciugamani regolare,Housekeeping,pos
 116,Servizio colazione rapido e cibo di qualità,F&B,pos
 45,Ottima igiene generale della stanza e cambio asciugamani regolare,Housekeeping,pos
-228,"Pulizia eccellente, bagno impeccabile e ambiente igienizzato",Housekeeping,pos
+"228,""Pulizia eccellente, bagno impeccabile e ambiente igienizzato"",Housekeeping,pos"
 66,Ottima igiene generale della stanza e cambio asciugamani regolare ma non sempre perfetto,Housekeeping,pos
-16,"Camera luminosa, pavimenti puliti e nessuna polvere",Housekeeping,pos
+"16,""Camera luminosa, pavimenti puliti e nessuna polvere"",Housekeeping,pos"
 48,Servizio colazione rapido e cibo di qualità,F&B,pos
-172,"Camera molto pulita e ordinata, biancheria profumata ma non sempre perfetto",Housekeeping,pos
+"172,""Camera molto pulita e ordinata, biancheria profumata ma non sempre perfetto"",Housekeeping,pos"
 161,Scarsa comunicazione alla reception ma non sempre perfetto!!! esperienza altalenante,Reception,neg
-3,"Accoglienza ottima, personale cortese e sorridente",Reception,pos
-22,"Stanza sempre pulitA ogni giorno, servizo rifacimento letto preciso non tutto era perfetto",Housekeeping,pos
-244,"Stanza sempre pulita ogni giorno, servizio rifacimento letto preciso",Housekeeping,pos
-60,"Camera luminosa, pavimenti puliti e nessuna polvere",Housekeeping,pos
-196,"Reception disponibile e professionale, risposte rapide",Reception,pos
-"29,""Il personale di questa struttura, a cinque minuti dalla stazione dei treni di Bari, è gentilissimo e disponibile ad andare incontro ad ogni esigenza dei clienti. Le sue tre stelle le merita tutte senza ombra di dubbio."",Reception,pos",,,
-110,"Camera molto pulita e ordinata, biancheria profumata",Housekeeping,pos
-207,"Stanza sempre pulita ogni giorno, servizo rifacimento letto preciso",Housekeeping,pos
+"3,""Accoglienza ottima, personale cortese e sorridente"",Reception,pos"
+"22,""Stanza sempre pulitA ogni giorno, servizo rifacimento letto preciso non tutto era perfetto"",Housekeeping,pos"
+"244,""Stanza sempre pulita ogni giorno, servizio rifacimento letto preciso"",Housekeeping,pos"
+"60,""Camera luminosa, pavimenti puliti e nessuna polvere"",Housekeeping,pos"
+"196,""Reception disponibile e professionale, risposte rapide"",Reception,pos"
+"29,""Il personale di questa struttura, a cinque minuti dalla stazione dei treni di Bari, è gentilissimo e disponibile ad andare incontro ad ogni esigenza dei clienti. Le sue tre stelle le merita tutte senza ombra di dubbio."",Reception,pos,,,"
+"110,""Camera molto pulita e ordinata, biancheria profumata"",Housekeeping,pos"
+"207,""Stanza sempre pulita ogni giorno, servizo rifacimento letto preciso"",Housekeeping,pos"
 51,Procedure di check-in e check-out semplici e veloci non tutto era perfetto,Reception,pos
 29,Scarsa igiene nella stanza e pavimenti sporchi,Housekeeping,neg
-245,"Accoglienza ottima, personale cortese e sorridente",Reception,pos
+"245,""Accoglienza ottima, personale cortese e sorridente"",Reception,pos"
 222,Ampia scelta di cibo dolce e salato al buffet,F&B,pos
 26,Servizio colazione rapido e cibo di qualità,F&B,pos
 7,Scarsa comunicazione alla reception,Reception,neg
 181,Attesa molto lunga al check-in,Reception,neg
 50,Procedure di check-in e check-out semplici e veloci,Reception,pos
 108,Letto non rifatto correttamente e lenzuola macchiate,Housekeeping,neg
-37,"Camera luminosa, pavimenti puliti e nessuna polvere",Housekeeping,pos
+"37,""Camera luminosa, pavimenti puliti e nessuna polvere"",Housekeeping,pos"
 157,Buffet abbondante e qualità del cibo ottima,F&B,pos
-"24,""Vicino alla stazione, ad un passo dal centro, orario di portineria h24, ottima colazione, mobili un po' datati per mio gusto. Bagni moderni, mi piaciuto zona relax. Palestra piccolina.. Consigliato per tutti"",Reception,pos",,,
+"24,""Vicino alla stazione, ad un passo dal centro, orario di portineria h24, ottima colazione, mobili un po' datati per mio gusto. Bagni moderni, mi piaciuto zona relax. Palestra piccolina.. Consigliato per tutti"",Reception,pos,,,"
 118,Colazione scarsa e poco varia,F&B,neg
 162,Ottima igiene generale della stanza e cambio asciugamani regolare non tutto era perfetto,Housekeeping,pos
 114,Check-in confuso e gestione pessima delle richieste,Reception,neg
 48,Servizio colazione rapido e cibo di qualità ma non sempre perfetto non tutto era perfetto,F&B,pos
-203,"Camera molto pulita e ordinata, biancheria profumata",Housekeeping,pos
+"203,""Camera molto pulita e ordinata, biancheria profumata"",Housekeeping,pos"
 175,Ampia scelta di cibo dolce e salato al buffet,F&B,pos
 247,Ampia scelta di cibo dolce e salato al buffet,F&B,pos
 125,Ampia scelta di cibo dolce e salato al buffet ma non sempre perfetto,F&B,pos
 144,Servizio colazione rapido e cibo di qualità,F&B,pos
-194,"Camera luminosa, pavimenti puliti e nessuna polvere",Housekeeping,pos
+"194,""Camera luminosa, pavimenti puliti e nessuna polvere"",Housekeeping,pos"
 176,QUALITÀ DEL CIBO SOTTO LE ASPETTATIVE MA NON SEMPRE PERFETTO!!!,F&B,neg
 189,STAFF DELLA RECEPTION MOLTO EFFICIENTE E DISPONIBILE 24H MA NON SEMPRE PERFETTO!!!,Reception,pos
 41,Check-in confuso e gestione pessima delle richieste ma non sempre perfetto,Reception,neg
 57,Ottima igiene generale della stanza e cambio asciugamani regolare ma non sempre perfetto!!! non tutto era perfetto,Housekeeping,pos
-170,"STANZA SEMPRE PULITA OGNI GIORNO, SERVIZIO RIFACIMENTO LETTO PRECISO non tutto era perfetto",Housekeeping,pos
-"13,""Ci vado spesso per lavoro non per mia scelta . Hotel abbastanza pulito ma il portiere di notte deve cambiare mestiere, gli dico di mettere la sveglia al mattino e non ti chiama. Letti fanno piangere al mattino ti svegli tutto storto meglio che dormivi sulla sedia. Stanze senza finestra bagno senza finestra. Cmq è un pessimo hotel. Peccato che ci devo sempre venire non per mia scelta"",Housekeeping,neg",,,
-141,"Camera sporca, polvere visibile sui mobili",Housekeeping,neg
+"170,""STANZA SEMPRE PULITA OGNI GIORNO, SERVIZIO RIFACIMENTO LETTO PRECISO non tutto era perfetto"",Housekeeping,pos"
+"13,""Ci vado spesso per lavoro non per mia scelta . Hotel abbastanza pulito ma il portiere di notte deve cambiare mestiere, gli dico di mettere la sveglia al mattino e non ti chiama. Letti fanno piangere al mattino ti svegli tutto storto meglio che dormivi sulla sedia. Stanze senza finestra bagno senza finestra. Cmq è un pessimo hotel. Peccato che ci devo sempre venire non per mia scelta"",Housekeeping,neg,,,"
+"141,""Camera sporca, polvere visibile sui mobili"",Housekeeping,neg"
 171,Servizio lento durante i pasti ma non sempre perfetto non tutto era perfetto,F&B,neg
-67,"Reception disponibile e professionale, risposte rapide",Reception,pos
+"67,""Reception disponibile e professionale, risposte rapide"",Reception,pos"
 182,Servizio colazzione rapido e cibo di qualità ma non sempre perfetto!!!,F&B,pos
 227,Ottima igiene generale della stanza e cambio asciugamani regolare,Housekeeping,pos
 168,Staff della reception molto efficiente e disponibile 24h,Reception,pos
 188,Ottima igiene generale della stanza e cambio asciugamani regolare,Housekeeping,pos
-21,"CAMERA MOLTO PULITA E ORDINATA, BIANCHERIA PROFUMATA",Housekeeping,pos
+"21,""CAMERA MOLTO PULITA E ORDINATA, BIANCHERIA PROFUMATA"",Housekeeping,pos"
 184,Servizio colazione rapido e cibo di qualità,F&B,pos
 18,Ristorante eccellente con piatti gustosi!!!,F&B,pos
 193,Ampia scelta di cibo dolce e salato al buffet,F&B,pos
-152,"Stanza sempre pulita ogni giorno, servizio rifacimento letto preciso",Housekeeping,pos
+"152,""Stanza sempre pulita ogni giorno, servizio rifacimento letto preciso"",Housekeeping,pos"
 11,Parcheggio custodito convenzionato nelle vicinanze. Colazione nella norma. Unica pecca migliorabile è l'insonorizzazione delle stanze tra loro che non permette un corretto riposo,F&B,pos
 105,Servizio colazione rapido e cibo di qualità,F&B,pos
 160,Check-in veloce e personalee molto gentile,Reception,pos
 153,Letto non rifatto correttamente e lenzuola macchiate ma non sempre perfetto!!! non tutto era perfetto,Housekeeping,neg
 103,Servizio colazione rapido e cibo di qualità,F&B,pos
-127,"Reception disponibile e professionale, risposte rapide",Reception,pos
+"127,""Reception disponibile e professionale, risposte rapide"",Reception,pos"
 74,Servizio lento durante i pasti,F&B,neg
 103,Servizio colazione rapido e cibo di qualità!!!,F&B,pos
-"27,""La pulizia va bene, la stanza non è grandissima, è a ridosso della stazione quindi fracasso dei treni sempre e per aver pagato 95 euro al giorno potevo prendermi un 4 stelle e godere di un servizio migliore..nemmeno il parcheggio hanno e vi spediscono in un garage con la convenzione di 15 euro al giorno, insomma costerebbe 110 euro senza nemmeno spostarsi."",Housekeeping,neg",,,
+"27,""La pulizia va bene, la stanza non è grandissima, è a ridosso della stazione quindi fracasso dei treni sempre e per aver pagato 95 euro al giorno potevo prendermi un 4 stelle e godere di un servizio migliore..nemmeno il parcheggio hanno e vi spediscono in un garage con la convenzione di 15 euro al giorno, insomma costerebbe 110 euro senza nemmeno spostarsi."",Housekeeping,neg,,,"
 119,Colazione ricca e varia con prodotti freschi,F&B,pos
 72,SCARSA IGIENE NELLA STANZA E PAVIMENTI SPORCHI,Housekeeping,neg
 92,Servizio colazione rapido e cibo di qualità anche se qualcosa mancava,F&B,pos
 158,Bagno non pulito e cattivo odore,Housekeeping,neg
 210,COLAZIONE RICCA E VARIA CON PRODOTTI FRESCHI,F&B,pos
-82,"Stanza sempre pulitA ogni giorno, servizio rifacimento letto preciso",Housekeeping,pos
+"82,""Stanza sempre pulitA ogni giorno, servizio rifacimento letto preciso"",Housekeeping,pos"
 36,Servizio colazione rapido e cibo di qualità!!!,F&B,pos
-88,"Reception disponibile e professionale, risposte rapide",Reception,pos
+"88,""Reception disponibile e professionale, risposte rapide"",Reception,pos"
 192,Servizio colazzione rapido e cibo di qualità!!!,F&B,pos
-91,"Accoglienza ottima, personalee cortese e sorridente",Reception,pos
+"91,""Accoglienza ottima, personalee cortese e sorridente"",Reception,pos"
 36,Servizio colazione rapido e cibo di qualità,F&B,pos
 139,Servizio colazione rapido e cibo di qualità,F&B,pos
-3,"Accoglienza ottima, personalee cortese e sorridente!!!",Reception,pos
+"3,""Accoglienza ottima, personalee cortese e sorridente!!!"",Reception,pos"
 75,PROCEDURE DI CHECK-IN E CHECK-OUT SEMPLICI E VELOCI,Reception,pos
 59,Scarsa igiene nella stanza e pavimenti sporchi,Housekeeping,neg
-111,"Camera luminosa, pavimenti puliti e nessuna polvere",Housekeeping,pos
+"111,""Camera luminosa, pavimenti puliti e nessuna polvere"",Housekeeping,pos"
 52,Attesa molto lunga al check-in ma non sempre perfetto,Reception,neg
-212,"Reception disponibile e professionale, risposte rapide ma non sempre perfetto!!! ma potrebbe migliorare",Reception,pos
+"212,""Reception disponibile e professionale, risposte rapide ma non sempre perfetto!!! ma potrebbe migliorare"",Reception,pos"
 12,Check-in confuso e gestione pessima delle richieste!!!,Reception,neg
 165,Procedure lente e disorganizzate,Reception,neg
 150,Scarsa igiene nella stanza e pavimenti sporchi,Housekeeping,neg
-16,"CAMERA LUMINOSA, PAVIMENTI PULITI E NESSUNA POLVERE",Housekeeping,pos
-190,"Pulizia eccellente, bagno impeccabile e ambiente igienizzato ma non sempre perfetto!!!",Housekeeping,pos
-38,"Camera sporca, polvere visibile sui mobili",Housekeeping,neg
-110,"CAMERA MOLTO PULITA E ORDINATA, BIANCHERIA PROFUMATA",Housekeeping,pos
+"16,""CAMERA LUMINOSA, PAVIMENTI PULITI E NESSUNA POLVERE"",Housekeeping,pos"
+"190,""Pulizia eccellente, bagno impeccabile e ambiente igienizzato ma non sempre perfetto!!!"",Housekeeping,pos"
+"38,""Camera sporca, polvere visibile sui mobili"",Housekeeping,neg"
+"110,""CAMERA MOLTO PULITA E ORDINATA, BIANCHERIA PROFUMATA"",Housekeeping,pos"
 198,Servizio lento durante i pasti,F&B,neg
 46,PROCEDURE DI CHECK-IN E CHECK-OUT SEMPLICI E VELOCI,Reception,pos
-146,"Pulizia eccellente, bagno impeccabile e ambiente igienizzato",Housekeeping,pos
+"146,""Pulizia eccellente, bagno impeccabile e ambiente igienizzato"",Housekeeping,pos"
 202,Check-in veloce e personale molto gentile,Reception,pos
 147,Buffet povero e poca scelta,F&B,neg
 150,Scarsa igiene nella stanza e pavimenti sporchi,Housekeeping,neg
 174,Qualità del cibo sotto le aspettative,F&B,neg
-123,"Pulizia eccellente, bagno impeccabile e ambiente igienizzato",Housekeeping,pos
+"123,""Pulizia eccellente, bagno impeccabile e ambiente igienizzato"",Housekeeping,pos"
 175,Ampia scelta di cibo dolce e salato al buffet,F&B,pos
 96,Letto non rifatto correttamente e lenzuola macchiate,Housekeeping,neg
 143,Personale poco cordiale alla reception,Reception,neg
 239,Colazione ricca e varia con prodotti freschi,F&B,pos
-"25,""Hotel accogliente in posizione centrale. Personale cordiale, camere pulite, buona la prima colazione. Parcheggio convenzionato a pochi passi. Ottima struttura ad un prezzo accessibile nel cuore di Bari."",Reception,pos",,,
+"25,""Hotel accogliente in posizione centrale. Personale cordiale, camere pulite, buona la prima colazione. Parcheggio convenzionato a pochi passi. Ottima struttura ad un prezzo accessibile nel cuore di Bari."",Reception,pos,,,"
 97,Check-in confuso e gestione pessima delle richieste,Reception,neg
 217,Ottima igiene generale della stanza e cambio asciugamani regolare ma potrebbe migliorare,Housekeeping,pos
 43,Procedure di check-in e check-out semplici e veloci ma non sempre perfetto!!!,Reception,pos
 154,SERVIZIO COLAZIONE RAPIDO E CIBO DI QUALITÀ!!! anche se qualcosa mancava,F&B,pos
-122,"Accoglienza ottima, personale cortese e sorridente",Reception,pos
+"122,""Accoglienza ottima, personale cortese e sorridente"",Reception,pos"
 183,Buffet abbondante e qualità del cibo ottima,F&B,pos
 202,Check-in veloce e personale molto gentile,Reception,pos
-246,"Camera sporca, polvere visibile sui mobili",Housekeeping,neg
+"246,""Camera sporca, polvere visibile sui mobili"",Housekeeping,neg"
 220,Procedure lente e disorganizzate!!!,Reception,neg
 90,COLAZIONE RICCA E VARIA CON PRODOTTI FRESCHI,F&B,pos
-155,"Reception disponibile e professionale, risposte rapide ma non sempre perfetto",Reception,pos
-191,"Pulizia eccellente, bagno impeccabile e ambiente igienizzato ma non sempre perfetto",Housekeeping,pos
+"155,""Reception disponibile e professionale, risposte rapide ma non sempre perfetto"",Reception,pos"
+"191,""Pulizia eccellente, bagno impeccabile e ambiente igienizzato ma non sempre perfetto"",Housekeeping,pos"
 206,Procedure lente e disorganizzate,Reception,neg
 74,Servizio lento durante i pasti,F&B,neg
 125,Ampia scelta di cibo dolce e salato al buffet,F&B,pos
 96,Letto non rifatto correttamente e lenzuola macchiate!!!,Housekeeping,neg
 223,Letto non rifatto correttamente e lenzuola macchiate,Housekeeping,neg
 233,Buffet povero e poca scelta!!! anche se qualcosa mancava,F&B,neg
-219,"Reception disponibile e professionale, risposte rapide",Reception,pos
+"219,""Reception disponibile e professionale, risposte rapide"",Reception,pos"
 129,Procedure di check-in e check-out semplici e veloci,Reception,pos
 235,Buffet abbondante e qualità del cibo ottima anche se qualcosa mancava,F&B,pos
 79,RISTORANTE ECCELLENTE CON PIATTI GUSTOSI!!! anche se qualcosa mancava,F&B,pos
 126,STAFF DELLA RECEPTION MOLTO EFFICIENTE E DISPONIBILE 24H MA NON SEMPRE PERFETTO!!!,Reception,pos
 186,Cibo freddo e qualità bassa al ristorante!!!,F&B,neg
 81,SERVIZIO DI PULIZIA SUPERFICIALE E POCO ACCURATO,Housekeeping,neg
-246,"Camera sporca, polvere visibile sui mobili ma non sempre perfetto",Housekeeping,neg
+"246,""Camera sporca, polvere visibile sui mobili ma non sempre perfetto"",Housekeeping,neg"
 86,Ottima igiene generale della stanza e cambio asciugamani regolare ma non sempre perfetto,Housekeeping,pos
 44,Buffet abbondante e qualità del cibo ottima,F&B,pos
 173,Staff della reception molto efficiente e disponibile 24h!!!,Reception,pos
-"14,""Stanze grandi anche se di stile vecchio, ma non mi importa data la posizione centrale, comoda e vicino alla stazione ed al teatro Petruzzelli. Soggiorno piacevole. Pulito. Colazione abbondante."",Housekeeping,pos",,,
-98,"RECEPTION DISPONIBILE E PROFESSIONALE, RISPOSTE RAPIDE!!!",Reception,pos
+"14,""Stanze grandi anche se di stile vecchio, ma non mi importa data la posizione centrale, comoda e vicino alla stazione ed al teatro Petruzzelli. Soggiorno piacevole. Pulito. Colazione abbondante."",Housekeeping,pos,,,"
+"98,""RECEPTION DISPONIBILE E PROFESSIONALE, RISPOSTE RAPIDE!!!"",Reception,pos"
 112,Procedure di check-in e check-out semplici e veloci,Reception,pos
 179,Procedure lente e disorganizzate,Reception,neg
 102,Procedure di check-in e check-out semplici e veloci!!!,Reception,pos
-138,"Camera luminosa, pavimenti puliti e nessuna polvere!!!",Housekeeping,pos
+"138,""Camera luminosa, pavimenti puliti e nessuna polvere!!!"",Housekeeping,pos"
 181,Attesa molto lunga al check-in!!!,Reception,neg
-64,"Camera molto pulita e ordinata, biancheria profumata ma non sempre perfetto!!!",Housekeeping,pos
+"64,""Camera molto pulita e ordinata, biancheria profumata ma non sempre perfetto!!!"",Housekeeping,pos"
 151,Attesa molto lunga al check-in,Reception,neg
 164,Personale poco cordiale alla reception non tutto era perfetto,Reception,neg
 233,Buffet povero e poca scelta,F&B,neg
 56,Bagno non pulito e cattivo odore,Housekeeping,neg
 106,Bagno non pulito e cattivo odore,Housekeeping,neg
 164,Personale poco cordiale alla reception,Reception,neg
-67,"Reception disponibile e professionale, risposte rapide non tutto era perfetto",Reception,pos
+"67,""Reception disponibile e professionale, risposte rapide non tutto era perfetto"",Reception,pos"
 136,Colazione ricca e varia con prodotti freschi,F&B,pos
-197,"Stanza sempre pulita ogni giorno, servizio rifacimento letto preciso",Housekeeping,pos
+"197,""Stanza sempre pulita ogni giorno, servizio rifacimento letto preciso"",Housekeeping,pos"
 8,Buffet abbondante e qualità del cibo ottima!!!,F&B,pos
 232,Servizio colazione rapido e cibo di qualità,F&B,pos
 115,Personale poco cordiale alla reception,Reception,neg
@@ -357,16 +357,16 @@ id,text,department,sentiment
 227,Ottima igiene generale della stanza e cambio asciugamani regolare!!!,Housekeeping,pos
 224,Staff della reception molto efficiente e disponibile 24h,Reception,pos
 213,Colazione scarsa e poco varia,F&B,neg
-"1,""Si tratta di un bel hotel in centro città. Le camere sono pulite e il servizio eccellente. Colazione ricca a buffet. Non ho dato cinque stelle perché il bagno era freddo, poco riscaldato."",F&B,pos",,,
+"1,""Si tratta di un bel hotel in centro città. Le camere sono pulite e il servizio eccellente. Colazione ricca a buffet. Non ho dato cinque stelle perché il bagno era freddo, poco riscaldato."",F&B,pos,,,"
 97,Check-in confuso e gestione pessima delle richieste ma non sempre perfetto,Reception,neg
-127,"Reception disponibile e professionale, risposte rapide",Reception,pos
-"40,""Volevamo passare una serata a Bari Vecchia, ottima scelta, cordialita' e funzionalita', carino il terrazzino per la colazione, immerso nel cuore della citta' storica, dietro alla cattedrale di san Sabino"",Reception,pos",,,
+"127,""Reception disponibile e professionale, risposte rapide"",Reception,pos"
+"40,""Volevamo passare una serata a Bari Vecchia, ottima scelta, cordialita' e funzionalita', carino il terrazzino per la colazione, immerso nel cuore della citta' storica, dietro alla cattedrale di san Sabino"",Reception,pos,,,"
 35,Procedure lente e disorganizzate!!!,Reception,neg
-"0,""Posizione ideale per visitare i luoghi più significativi della città. Staff molto gentile. Pulizia degli ambienti. Camere confortevoli, eleganti, comode. Saletta della prima colazione carina, anche se piccola."",Reception,pos",,,
-"19,""Ho soggiornato una notte all'hotel Adria, devo dire che è stato una piacevole sorpresa. Camera spaziosa, colazione ottima e abbondante. Pulizia buona. Posizione ottima per visitare la città soprattutto per chi si sposta in treno."",F&B,pos",,,
+"0,""Posizione ideale per visitare i luoghi più significativi della città. Staff molto gentile. Pulizia degli ambienti. Camere confortevoli, eleganti, comode. Saletta della prima colazione carina, anche se piccola."",Reception,pos,,,"
+"19,""Ho soggiornato una notte all'hotel Adria, devo dire che è stato una piacevole sorpresa. Camera spaziosa, colazione ottima e abbondante. Pulizia buona. Posizione ottima per visitare la città soprattutto per chi si sposta in treno."",F&B,pos,,,"
 107,Staff della reception molto efficiente e disponibile 24h,Reception,pos
-245,"Accoglienza ottima, personale cortese e sorridente",Reception,pos
-123,"Pulizia eccellente, bagno impeccabile e ambiente igienizzato ma non sempre perfetto!!!",Housekeeping,pos
+"245,""Accoglienza ottima, personale cortese e sorridente"",Reception,pos"
+"123,""Pulizia eccellente, bagno impeccabile e ambiente igienizzato ma non sempre perfetto!!!"",Housekeeping,pos"
 133,Colazione ricca e varia con prodotti freschi,F&B,pos
 183,BUFFET ABBONDANTE E QUALITÀ DEL CIBO OTTIMA!!!,F&B,pos
 44,Buffet abbondante e qualità del cibo ottima,F&B,pos
@@ -377,27 +377,27 @@ id,text,department,sentiment
 242,Attesa molto lunga al check-in,Reception,neg
 186,Cibo freddo e qualità bassa al ristorante,F&B,neg
 247,Ampia scelta di cibo dolce e salato al buffet,F&B,pos
-159,"Camera sporca, polvere visibile sui mobili",Housekeeping,neg
+"159,""Camera sporca, polvere visibile sui mobili"",Housekeeping,neg"
 12,Check-in confuso e gestione pessima delle richieste,Reception,neg
 35,Procedure lente e disorganizzate,Reception,neg
-28,"Reception disponibile e professionale, risposte rapide",Reception,pos
-170,"Stanza sempre pulita ogni giorno, servizio rifacimento letto preciso",Housekeeping,pos
+"28,""Reception disponibile e professionale, risposte rapide"",Reception,pos"
+"170,""Stanza sempre pulita ogni giorno, servizio rifacimento letto preciso"",Housekeeping,pos"
 142,Colazione scarsa e poco varia,F&B,neg
-"26,""L Hotel è nella norma, stanza piccolissima. Frigobar con solo 2 bottigliette di acqua e null altro. Una grossissima raccomandazione, non andate a mangiare al ristorante che c'è all interno del Hotel, cosi come mi è stato consigliato alla reception. Inqualificabile sia come cibo che come servizio, tenetevi lontani da questa struttura, che tra l altro al mattino e dove andate a fare colazione"",F&B,neg",,,
-"48,""Perfetto pulito, profumato. Camere pulite, letto comodi, cambio asciugamani quotidiano, l'unica pecca è la mancanza di un mini frigo. Colazione varia ed abbondante, personale super cortese e disponibile. Davvero consigliatissimo!"",F&B,pos",,,
-221,"Camera luminosa, pavimenti puliti e nessuna polvere",Housekeeping,pos
+"26,""L Hotel è nella norma, stanza piccolissima. Frigobar con solo 2 bottigliette di acqua e null altro. Una grossissima raccomandazione, non andate a mangiare al ristorante che c'è all interno del Hotel, cosi come mi è stato consigliato alla reception. Inqualificabile sia come cibo che come servizio, tenetevi lontani da questa struttura, che tra l altro al mattino e dove andate a fare colazione"",F&B,neg,,,"
+"48,""Perfetto pulito, profumato. Camere pulite, letto comodi, cambio asciugamani quotidiano, l'unica pecca è la mancanza di un mini frigo. Colazione varia ed abbondante, personale super cortese e disponibile. Davvero consigliatissimo!"",F&B,pos,,,"
+"221,""Camera luminosa, pavimenti puliti e nessuna polvere"",Housekeeping,pos"
 236,Buffet abbondante e qualità del cibo ottima!!!,F&B,pos
 95,Buffet abbondante e qualità del cibo ottima,F&B,pos
 51,Procedure di check-in e check-out semplici e veloci,Reception,pos
-240,"Accoglienza ottima, personale cortese e sorridente",Reception,pos
+"240,""Accoglienza ottima, personale cortese e sorridente"",Reception,pos"
 179,Procedure lente e disorganizzate ma non sempre perfetto,Reception,neg
 101,Servizio lento durante i pasti,F&B,neg
 188,Ottima igiene generale della stanza e cambio asciugamani regolare,Housekeeping,pos
 178,Ampia scelta di cibo dolce e salato al buffet,F&B,pos
 200,Procedure di check-in e check-out semplici e veloci ma non sempre perfetto,Reception,pos
 41,Check-in confuso e gestione pessima delle richieste,Reception,neg
-"3,""Hotel grande con tutti i dettagli ma personale incredibilmente disponibile. Ottima colazione a buffet. Abbiamo trascorso una notte qui prima di imbarcarci sul traghetto per la Grecia, servizi eccellenti e un'ottima notte di sonno nonostante l'ondata di caldo. A pochi passi sia dalla stazione che dal porto."",F&B,pos",,,
-197,"Stanza sempre pulita ogni giorno, servizio rifacimento letto preciso",Housekeeping,pos
+"3,""Hotel grande con tutti i dettagli ma personale incredibilmente disponibile. Ottima colazione a buffet. Abbiamo trascorso una notte qui prima di imbarcarci sul traghetto per la Grecia, servizi eccellenti e un'ottima notte di sonno nonostante l'ondata di caldo. A pochi passi sia dalla stazione che dal porto."",F&B,pos,,,"
+"197,""Stanza sempre pulita ogni giorno, servizio rifacimento letto preciso"",Housekeeping,pos"
 206,Procedure lente e disorganizzate,Reception,neg
 142,COLAZIONE SCARSA E POCO VARIA non tutto era perfetto,F&B,neg
 32,Ottima igiene generale della stanza e cambio asciugamani regolare,Housekeeping,pos
@@ -406,15 +406,15 @@ id,text,department,sentiment
 4,SERVIZIO COLAZZIONE RAPIDO E CIBO DI QUALITÀ,F&B,pos
 229,Buffet povero e poca scelta,F&B,neg
 4,Servizio colazione rapido e cibo di qualità,F&B,pos
-6,"Accoglienza ottima, personale cortese e sorridente!!!",Reception,pos
-"15,""Convenzionati con parcheggio a pagamento 24h 10e, altrimenti si trova tranquillamente posto nei dintorni."",Reception,pos",,,
+"6,""Accoglienza ottima, personale cortese e sorridente!!!"",Reception,pos"
+"15,""Convenzionati con parcheggio a pagamento 24h 10e, altrimenti si trova tranquillamente posto nei dintorni."",Reception,pos,,,"
 100,Buffet povero e poca scelta,F&B,neg
 226,Personale poco cordiale alla reception,Reception,neg
 242,Attesa molto lunga al check-in,Reception,neg
 213,Colazione scarsa e poco varia,F&B,neg
 237,Letto non rifatto correttamente e lenzuola macchiate!!!,Housekeeping,neg
 171,Servizio lento durante i pasti,F&B,neg
-98,"Reception disponibile e professionale, risposte rapide",Reception,pos
+"98,""Reception disponibile e professionale, risposte rapide"",Reception,pos"
 42,Ristorante eccellente con piatti gustosi!!! non tutto era perfetto,F&B,pos
 215,Ristorante eccellente con piatti gustosi,F&B,pos
 61,Ristorante eccellente con piatti gustosi,F&B,pos
@@ -427,66 +427,66 @@ id,text,department,sentiment
 200,Procedure di check-in e check-out semplici e veloci,Reception,pos
 134,Procedure lente e disorganizzate,Reception,neg
 27,Check-in veloce e personale molto gentile,Reception,pos
-199,"Stanza sempre pulitA ogni giorno, servizo rifacimento letto preciso",Housekeeping,pos
+"199,""Stanza sempre pulitA ogni giorno, servizo rifacimento letto preciso"",Housekeeping,pos"
 230,Servizio di pulizia superficiale e poco accurato,Housekeeping,neg
 10,Check-in veloce e personale molto gentile,Reception,pos
 128,Servizio colazione rapido e cibo di qualità,F&B,pos
-38,"Camera sporca, polvere visibile sui mobili",Housekeeping,neg
+"38,""Camera sporca, polvere visibile sui mobili"",Housekeeping,neg"
 168,Staff della reception molto efficiente e disponibile 24h,Reception,pos
 162,Ottima igiene generale della stanza e cambio asciugamani regolare,Housekeeping,pos
-141,"Camera sporca, polvere visibile sui mobili",Housekeeping,neg
-240,"Accoglienza ottima, personalee cortese e sorridente",Reception,pos
-138,"Camera luminosa, pavimenti puliti e nessuna polvere",Housekeeping,pos
+"141,""Camera sporca, polvere visibile sui mobili"",Housekeeping,neg"
+"240,""Accoglienza ottima, personalee cortese e sorridente"",Reception,pos"
+"138,""Camera luminosa, pavimenti puliti e nessuna polvere"",Housekeeping,pos"
 62,Scarsa igiene nella stanza e pavimenti sporchi,Housekeeping,neg
 135,Check-in confuso e gestione pessima delle richieste,Reception,neg
 128,Servizio colazione rapido e cibo di qualità,F&B,pos
-"33,""Siamo stati quattro giorni a Bari in questo B&B la scorsa settimana, la stanza era abbastanza ampia, ma il bagno era veramente piccolo, doccia impraticabile e senza bidet, il materasso veramente troppo molle. Unica positività la posizione molto centrale.Non lo consiglio."",Housekeeping,neg",,,
+"33,""Siamo stati quattro giorni a Bari in questo B&B la scorsa settimana, la stanza era abbastanza ampia, ma il bagno era veramente piccolo, doccia impraticabile e senza bidet, il materasso veramente troppo molle. Unica positività la posizione molto centrale.Non lo consiglio."",Housekeeping,neg,,,"
 8,Buffet abbondante e qualità del cibo ottima,F&B,pos
-76,"Accoglienza ottima, personalee cortese e sorridente",Reception,pos
+"76,""Accoglienza ottima, personalee cortese e sorridente"",Reception,pos"
 94,CIBO FREDDO E QUALITÀ BASSA AL RISTORANTE!!!,F&B,neg
-64,"Camera molto pulita e ordinata, biancheria profumata",Housekeeping,pos
+"64,""Camera molto pulita e ordinata, biancheria profumata"",Housekeeping,pos"
 50,PROCEDURE DI CHECK-IN E CHECK-OUT SEMPLICI E VELOCI MA NON SEMPRE PERFETTO!!! anche se qualcosa mancava,Reception,pos
-14,"Accoglienza ottima, personale cortese e sorridente",Reception,pos
+"14,""Accoglienza ottima, personale cortese e sorridente"",Reception,pos"
 156,Staff della reception molto efficiente e disponibile 24h,Reception,pos
 40,Scarsa igiene nella stanza e pavimenti sporchi,Housekeeping,neg
 129,Procedure di check-in e check-out semplici e veloci ma non sempre perfetto!!!,Reception,pos
-187,"Reception disponibile e professionale, risposte rapide",Reception,pos
-214,"Accoglienza ottima, personale cortese e sorridente ma non sempre perfetto",Reception,pos
+"187,""Reception disponibile e professionale, risposte rapide"",Reception,pos"
+"214,""Accoglienza ottima, personale cortese e sorridente ma non sempre perfetto"",Reception,pos"
 216,Servizio colazione rapido e cibo di qualità,F&B,pos
-159,"Camera sporca, polvere visibile sui mobili",Housekeeping,neg
+"159,""Camera sporca, polvere visibile sui mobili"",Housekeeping,neg"
 29,Scarsa igiene nella stanza e pavimenti sporchi,Housekeeping,neg
 2,Hotel molto comodo al centro. Stanze pulite e spaziose... Noi ci siamo trovati molto bene. Il ragazzo alla reception molto gentile. Consigliatissimo,Reception,pos
-248,"Camera molto pulita e ordinata, biancheria profumata ma non sempre perfetto",Housekeeping,pos
+"248,""Camera molto pulita e ordinata, biancheria profumata ma non sempre perfetto"",Housekeeping,pos"
 87,Procedure lente e disorganizzate,Reception,neg
 236,Buffet abbondante e qualità del cibo ottima,F&B,pos
-207,"Stanza sempre pulita ogni giorno, servizio rifacimento letto preciso",Housekeeping,pos
-212,"Reception disponibile e professionale, risposte rapide",Reception,pos
+"207,""Stanza sempre pulita ogni giorno, servizio rifacimento letto preciso"",Housekeeping,pos"
+"212,""Reception disponibile e professionale, risposte rapide"",Reception,pos"
 45,Ottima igiene generale della stanza e cambio asciugamani regolare!!! anche se qualcosa mancava,Housekeeping,pos
-"18,""Gli do 3 stelle solo per la vicinanza a tutto. Camere pulite, letto duro e rumore dei treni durante la notte che impediscono di dormire. Ciliegina sulla torta, la colazione, RIDICOLA!!!! per i prezzi che hanno mi aspettavo molto, ma molto di più, neanche un cornetto caldo. Non ci tornerò e non lo consiglio."",F&B,neg",,,
+"18,""Gli do 3 stelle solo per la vicinanza a tutto. Camere pulite, letto duro e rumore dei treni durante la notte che impediscono di dormire. Ciliegina sulla torta, la colazione, RIDICOLA!!!! per i prezzi che hanno mi aspettavo molto, ma molto di più, neanche un cornetto caldo. Non ci tornerò e non lo consiglio."",F&B,neg,,,"
 1,Procedure lente e disorganizzate!!!,Reception,neg
-"41,""Abbiamo alloggiato in questo B&B per 3 notti... tutto perfetto: posizione centralissima, pulizia, ordine e cura nei particolari. La palazzina è tipica del centro storico e la terrazza colazione è davvero graziosa. Il buffet è abbondante e vario. Lo terrò presente per il nostro ritorno a Bari... la mia città d'origine!"",F&B,pos",,,
+"41,""Abbiamo alloggiato in questo B&B per 3 notti... tutto perfetto: posizione centralissima, pulizia, ordine e cura nei particolari. La palazzina è tipica del centro storico e la terrazza colazione è davvero graziosa. Il buffet è abbondante e vario. Lo terrò presente per il nostro ritorno a Bari... la mia città d'origine!"",F&B,pos,,,"
 211,Check-in veloce e personale molto gentile,Reception,pos
 205,ATTESA MOLTO LUNGA AL CHECK-IN ma potrebbe migliorare,Reception,neg
 47,Struttura molto ben rinnovata e nella sua semplicità con un piacevolissimo design.La mia camera a tre letti era ampia e il bagno molto funzionale con una comodissima doccia.Tutto molto pulito e in ordine.,Housekeeping,pos
-53,"Reception disponibile e professionale, risposte rapide!!!",Reception,pos
+"53,""Reception disponibile e professionale, risposte rapide!!!"",Reception,pos"
 100,Buffet povero e poca scelta ma non sempre perfetto,F&B,neg
-19,"Reception disponibile e professionale, risposte rapide",Reception,pos
+"19,""Reception disponibile e professionale, risposte rapide"",Reception,pos"
 195,Ristorante eccellente con piatti gustosi,F&B,pos
 201,Procedure lente e disorganizzate,Reception,neg
 161,Scarsa comunicazione alla reception,Reception,neg
 43,Procedure di check-in e check-out semplici e veloci,Reception,pos
 217,Ottima igiene generale della stanza e cambio asciugamani regolare,Housekeeping,pos
 151,Attesa molto lunga al check-in,Reception,neg
-190,"Pulizia eccellente, bagno impeccabile e ambiente igienizzato",Housekeeping,pos
+"190,""Pulizia eccellente, bagno impeccabile e ambiente igienizzato"",Housekeeping,pos"
 226,Personale poco cordiale alla reception ma non sempre perfetto anche se qualcosa mancava,Reception,neg
 59,Scarsa igiene nella stanza e pavimenti sporchi ma non sempre perfetto,Housekeeping,neg
 9,COLAZIONE RICCA E VARIA CON PRODOTTI FRESCHI,F&B,pos
 105,Servizio colazione rapido e cibo di qualità,F&B,pos
-53,"Reception disponibile e professionale, risposte rapide",Reception,pos
+"53,""Reception disponibile e professionale, risposte rapide"",Reception,pos"
 139,Servizio colazione rapido e cibo di qualità ma non sempre perfetto,F&B,pos
 1,Procedure lente e disorganizzate,Reception,neg
-"20,""Hotel abbastanza semplice e privo di fascino. La nostra camera si affacciava sui binari del treno ma non siamo stati disturbati da questo. Le camere sono arredate in modo semplice ma molto pulite.Vicino alla stazione ferroviaria ea pochi passi dal centro storico, che merita una visita."",Housekeeping,pos",,,
-109,"PULIZIA ECCELLENTE, BAGNO IMPECCABILE E AMBIENTE IGIENIZZATO MA NON SEMPRE PERFETTO",Housekeeping,pos
+"20,""Hotel abbastanza semplice e privo di fascino. La nostra camera si affacciava sui binari del treno ma non siamo stati disturbati da questo. Le camere sono arredate in modo semplice ma molto pulite.Vicino alla stazione ferroviaria ea pochi passi dal centro storico, che merita una visita."",Housekeeping,pos,,,"
+"109,""PULIZIA ECCELLENTE, BAGNO IMPECCABILE E AMBIENTE IGIENIZZATO MA NON SEMPRE PERFETTO"",Housekeeping,pos"
 49,Ottima igiene generale della stanza e cambio asciugamani regolare,Housekeeping,pos
 169,Ampia scelta di cibo dolce e salato al buffet ma non sempre perfetto,F&B,pos
 80,Servizio colazione rapido e cibo di qualità,F&B,pos
@@ -498,54 +498,54 @@ id,text,department,sentiment
 204,Ristorante eccellente con piatti gustosi!!! anche se qualcosa mancava,F&B,pos
 193,Ampia scelta di cibo dolce e salato al buffet,F&B,pos
 116,Servizio colazzione rapido e cibo di qualità!!!,F&B,pos
-91,"Accoglienza ottima, personale cortese e sorridente",Reception,pos
+"91,""Accoglienza ottima, personale cortese e sorridente"",Reception,pos"
 89,Buffet abbondante e qualità del cibo ottima!!!,F&B,pos
-"30,""Posizione centrale, personale disponibile e cordiale, pulizia. Peccato per la stanza assegnataci, poco spaziosa per 4 persone. Ma siamo giunti in tarda serata, senza preavviso, per cui ci siamo adattati. Lo consiglio."",Reception,pos",,,
+"30,""Posizione centrale, personale disponibile e cordiale, pulizia. Peccato per la stanza assegnataci, poco spaziosa per 4 persone. Ma siamo giunti in tarda serata, senza preavviso, per cui ci siamo adattati. Lo consiglio."",Reception,pos,,,"
 52,Attesa molto lunga al check-in,Reception,neg
 95,Buffet abbondante e qualità del cibo ottima ma non sempre perfetto,F&B,pos
-14,"Accoglienza ottima, personale cortese e sorridente!!!",Reception,pos
-"5,""Camera essenziale ma confortevole. Buona la colazione. Fantastico il personale: tutti gentilissimi, sempre sorridenti, sempre pronti ad agevolare la permanenza in città."",Reception,pos",,,
+"14,""Accoglienza ottima, personale cortese e sorridente!!!"",Reception,pos"
+"5,""Camera essenziale ma confortevole. Buona la colazione. Fantastico il personale: tutti gentilissimi, sempre sorridenti, sempre pronti ad agevolare la permanenza in città."",Reception,pos,,,"
 241,Ottima igiene generale della stanza e cambio asciugamani regolare,Housekeeping,pos
 13,Servizio lento durante i pasti,F&B,neg
 65,Ristorante eccellente con piatti gustosi ma non sempre perfetto non tutto era perfetto,F&B,pos
-88,"Reception disponibile e professionale, risposte rapide",Reception,pos
+"88,""Reception disponibile e professionale, risposte rapide"",Reception,pos"
 137,Colazione scarsa e poco varia,F&B,neg
 23,Scarsa igiene nella stanza e pavimenti sporchi,Housekeeping,neg
-166,"Reception disponibile e professionale, risposte rapide",Reception,pos
+"166,""Reception disponibile e professionale, risposte rapide"",Reception,pos"
 44,La camera è grande e carina..accogliente e con frigobar.ottima colazione! È vicino ai luoghi come la cattedrale e la basilica...ma anche a tutti i locali,F&B,neg
 234,Scarsa comunicazione alla reception ma potrebbe migliorare,Reception,neg
-"35,""Ottima posizione....centro bari vecchia. gentilissima la titolare sempre disponibile x qualsiasi problema .da lì si arriva ovunque non c'è bisogno di usare l'auto ,più in centro di così non è possibile"",Reception,pos",,,
-"4,""Buona posizione, si raggiunge un po' tutto a piedi."",Reception,pos",,,
+"35,""Ottima posizione....centro bari vecchia. gentilissima la titolare sempre disponibile x qualsiasi problema .da lì si arriva ovunque non c'è bisogno di usare l'auto ,più in centro di così non è possibile"",Reception,pos,,,"
+"4,""Buona posizione, si raggiunge un po' tutto a piedi."",Reception,pos,,,"
 243,Servizio colazione rapido e cibo di qualità,F&B,pos
 189,Staff della reception molto efficiente e disponibile 24h,Reception,pos
 225,COLAZIONE SCARSA E POCO VARIA,F&B,neg
 10,Hotel pulito e in posizione strategica.,Housekeeping,pos
-58,"Accoglienza ottima, personale cortese e sorridente",Reception,pos
+"58,""Accoglienza ottima, personale cortese e sorridente"",Reception,pos"
 224,STAFF DELLA RECEPTION MOLTO EFFICIENTE E DISPONIBILE 24H!!!,Reception,pos
-2,"Pulizia eccellente, bagno impeccabile e ambiente igienizzato ma non sempre perfetto",Housekeeping,pos
-21,"Camera molto pulita e ordinata, biancheria profumata",Housekeeping,pos
-63,"Reception disponibile e professionale, risposte rapide!!!",Reception,pos
+"2,""Pulizia eccellente, bagno impeccabile e ambiente igienizzato ma non sempre perfetto"",Housekeeping,pos"
+"21,""Camera molto pulita e ordinata, biancheria profumata"",Housekeeping,pos"
+"63,""Reception disponibile e professionale, risposte rapide!!!"",Reception,pos"
 209,Ottima igiene generale della stanza e cambio asciugamani regolare,Housekeeping,pos
 160,Check-in veloce e personale molto gentile,Reception,pos
 26,Servizio colazione rapido e cibo di qualità!!! non tutto era perfetto,F&B,pos
-191,"Pulizia eccellente, bagno impeccabile e ambiente igienizzato",Housekeeping,pos
+"191,""Pulizia eccellente, bagno impeccabile e ambiente igienizzato"",Housekeeping,pos"
 135,Check-in confuso e gestione pessima delle richieste,Reception,neg
 163,Colazione ricca e varia con prodotti freschi anche se qualcosa mancava,F&B,pos
 241,OTTIMA IGIENE GENERALE DELLA STANZA E CAMBIO ASCIUGAMANI REGOLARE,Housekeeping,pos
 93,Ristorante eccellente con piatti gustosi ma non sempre perfetto!!! esperienza altalenante,F&B,pos
-58,"Accoglienza ottima, personale cortese e sorridente ma non sempre perfetto",Reception,pos
-130,"Camera luminosa, pavimenti puliti e nessuna polvere",Housekeeping,pos
-99,"Camera sporca, polvere visibile sui mobili",Housekeeping,neg
-122,"Accoglienza ottima, personale cortese e sorridente",Reception,pos
+"58,""Accoglienza ottima, personale cortese e sorridente ma non sempre perfetto"",Reception,pos"
+"130,""Camera luminosa, pavimenti puliti e nessuna polvere"",Housekeeping,pos"
+"99,""Camera sporca, polvere visibile sui mobili"",Housekeeping,neg"
+"122,""Accoglienza ottima, personale cortese e sorridente"",Reception,pos"
 87,Procedure lente e disorganizzate,Reception,neg
-208,"Stanza sempre pulitA ogni giorno, servizo rifacimento letto preciso ma non sempre perfetto!!!",Housekeeping,pos
+"208,""Stanza sempre pulitA ogni giorno, servizo rifacimento letto preciso ma non sempre perfetto!!!"",Housekeeping,pos"
 80,Servizio colazzione rapido e cibo di qualità,F&B,pos
-214,"Accoglienza ottima, personale cortese e sorridente",Reception,pos
+"214,""Accoglienza ottima, personale cortese e sorridente"",Reception,pos"
 216,Servizio colazione rapido e cibo di qualità,F&B,pos
 121,Ottima igiene generale della stanza e cambio asciugamani regolare,Housekeeping,pos
-20,"Reception disponibile e professionale, risposte rapide",Reception,pos
+"20,""Reception disponibile e professionale, risposte rapide"",Reception,pos"
 71,Servizio di pulizia superficiale e poco accurato,Housekeeping,neg
 106,Bagno non pulito e cattivo odore,Housekeeping,neg
-20,"Reception disponibile e professionale, risposte rapide ma non sempre perfetto",Reception,pos
-185,"Stanza sempre pulitA ogni giorno, servizio rifacimento letto preciso!!!",Housekeeping,pos
+"20,""Reception disponibile e professionale, risposte rapide ma non sempre perfetto"",Reception,pos"
+"185,""Stanza sempre pulitA ogni giorno, servizio rifacimento letto preciso!!!"",Housekeeping,pos"
 102,Procedure di check-in e check-out semplici e veloci,Reception,pos
