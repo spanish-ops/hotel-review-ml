@@ -8,7 +8,7 @@ sentiments = ["pos", "neg"]
 
 target_size = 200
 
-# ---------------- BASE (più colloquiale e diversa dal clean) ----------------
+# ---------------- BASE ----------------
 
 hk = {
     "pos": ["camera pulitissima", "tutto ok con la stanza", "camera davvero in ordine", "buona pulizia generale"],
@@ -25,7 +25,7 @@ fb = {
     "neg": ["colazione scarsa", "cibo freddo", "poco assortimento", "qualità bassa"]
 }
 
-# ---------------- TEMPLATE DIVERSI DAL CLEAN ----------------
+# ---------------- TEMPLATE ----------------
 
 templates = [
     "la {dept} è {base}",
@@ -39,19 +39,11 @@ templates = [
 
 typos = {
     "camera": ["camra", "cmera", "cameraa"],
-    "pulita": ["pulitta", "pulitaa", "pulita"],
-    "personale": ["personale", "persoale", "personalle"],
-    "colazione": ["colazzione", "colazionee", "colazone"],
-    "servizio": ["servizzio", "servizioo", "servizzio"]
+    "pulita": ["pulitta", "pulitaa"],
+    "personale": ["persoale", "personalle"],
+    "colazione": ["colazzione", "colazionee"],
+    "servizio": ["servizzio", "servizioo"]
 }
-
-depart_ambiguity = [
-    "",
-    " forse housekeeping",
-    " reception o forse ristorante",
-    " non so se housekeeping o reception",
-    " area servizio"
-]
 
 case_noise = [
     lambda x: x,
@@ -59,7 +51,7 @@ case_noise = [
     lambda x: x.capitalize()
 ]
 
-# ---------------- FUNZIONI ----------------
+# ---------------- FUNCTIONS ----------------
 
 def get_base(dept, sentiment):
     if dept == "Housekeeping":
@@ -69,17 +61,24 @@ def get_base(dept, sentiment):
     else:
         return random.choice(fb[sentiment])
 
-def add_typos(text):
-    for word, variants in typos.items():
-        if word in text and random.random() < 0.3:
-            text = text.replace(word, random.choice(variants))
-    return text
 
-# ---------------- GENERAZIONE ----------------
+def add_typos(text):
+    words = text.split()
+    new_words = []
+
+    for w in words:
+        lw = w.lower()
+        if lw in typos and random.random() < 0.3:
+            new_words.append(random.choice(typos[lw]))
+        else:
+            new_words.append(w)
+
+    return " ".join(new_words)
+
+# ---------------- GENERATION ----------------
 
 data = []
 seen = set()
-i = 0
 
 while len(data) < target_size:
 
@@ -87,19 +86,14 @@ while len(data) < target_size:
     sent = random.choices(sentiments, weights=[0.7, 0.3])[0]
 
     base = get_base(dept, sent)
-
     template = random.choice(templates)
 
     text = template.format(dept=dept, base=base)
 
-    # noise 1: maiuscole/minuscole
+    # case noise
     text = random.choice(case_noise)(text)
 
-    # noise 2: ambiguità reparto
-    if random.random() < 0.25:
-        text += random.choice(depart_ambiguity)
-
-    # noise 3: errori ortografici leggeri
+    # typo noise
     text = add_typos(text)
 
     key = text.lower().strip()
@@ -110,13 +104,19 @@ while len(data) < target_size:
     seen.add(key)
 
     data.append({
-        "id": i,
         "text": text,
         "department": dept,
         "sentiment": sent
     })
 
-    i += 1
+# ---------------- DATAFRAME ----------------
+
+df = pd.DataFrame(data)
+
+# ---------------- ID FIRST COLUMN ----------------
+
+df = df.reset_index(drop=True)
+df.insert(0, "id", df.index)
 
 # ---------------- SAVE ----------------
 
@@ -125,7 +125,6 @@ DATA_PATH = os.path.join(BASE_DIR, "data", "reviews_noisy.csv")
 
 os.makedirs(os.path.dirname(DATA_PATH), exist_ok=True)
 
-df = pd.DataFrame(data)
 df.to_csv(DATA_PATH, index=False, encoding="utf-8-sig")
 
 print(f"✅ Generated {len(df)} NOISY reviews")
