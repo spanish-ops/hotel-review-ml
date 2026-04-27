@@ -1,30 +1,45 @@
 import pandas as pd
 import os
+import csv
 
-BASE_DIR = os.path.dirname(os.path.dirname(__file__))
+# ---------------- ROOT PROGETTO ----------------
+BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "../../../"))
 DATA_DIR = os.path.join(BASE_DIR, "data")
 
 INPUT_FILE = os.path.join(DATA_DIR, "raw_real_reviews.txt")
 OUTPUT_FILE = os.path.join(DATA_DIR, "reviews_real.csv")
 
+# ---------------- CHECK FILE ----------------
+if not os.path.exists(INPUT_FILE):
+    raise FileNotFoundError(f"File non trovato: {INPUT_FILE}")
+
+# ---------------- LOAD TXT ----------------
 reviews = []
 
 with open(INPUT_FILE, "r", encoding="utf-8") as f:
-    lines = f.readlines()
+    for i, line in enumerate(f):
+        text = line.strip()
 
-for i, line in enumerate(lines):
-    text = line.strip()
-    
-    if text:  # evita righe vuote
-        reviews.append({
-            "id": i,
-            "text": text,
-            "department": "",   # da etichettare dopo
-            "sentiment": ""     # da etichettare dopo
-        })
+        if text:
+            reviews.append({
+                "id": i,
+                "text": text,
+                "department": "",
+                "sentiment": ""
+            })
 
+# ---------------- DATAFRAME ----------------
 df = pd.DataFrame(reviews)
 
-df.to_csv(OUTPUT_FILE, index=False)
+# ---------------- FIX IMPORTANTE ----------------
+# CSV safe (gestisce virgole, testi lunghi, ecc.)
+df.to_csv(
+    OUTPUT_FILE,
+    index=False,
+    encoding="utf-8-sig",
+    quoting=csv.QUOTE_ALL
+)
 
-print("CSV creato da file TXT!")
+print(f"✅ CSV creato correttamente!")
+print(f"📁 Salvato in: {OUTPUT_FILE}")
+print(f"📊 Totale recensioni: {len(df)}")

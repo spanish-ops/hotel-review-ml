@@ -16,7 +16,7 @@ hk = {
 }
 
 rec = {
-    "pos": ["staff gentile", "personale ok", "accoglienza buona", "reception veloce"],
+    "pos": ["staff gentile", "personale molto disponibile", "accoglienza buona", "reception veloce"],
     "neg": ["personale scortese", "attesa lunga", "reception lenta", "servizio non buono"]
 }
 
@@ -25,11 +25,11 @@ fb = {
     "neg": ["colazione scarsa", "cibo freddo", "poco assortimento", "qualità bassa"]
 }
 
-# ---------------- TEMPLATE ----------------
+# ---------------- TEMPLATES (NO REPARTO NEL TESTO!) ----------------
 
 templates = [
-    "la {dept} è {base}",
-    "{base} alla {dept}",
+    "la stanza è {base}",
+    "{base} durante il soggiorno",
     "nel complesso {base}",
     "durante il soggiorno {base}",
     "{base} direi"
@@ -51,7 +51,7 @@ case_noise = [
     lambda x: x.capitalize()
 ]
 
-# ---------------- FUNCTIONS ----------------
+# ---------------- BASE PICK ----------------
 
 def get_base(dept, sentiment):
     if dept == "Housekeeping":
@@ -61,6 +61,7 @@ def get_base(dept, sentiment):
     else:
         return random.choice(fb[sentiment])
 
+# ---------------- TYPO NOISE ----------------
 
 def add_typos(text):
     words = text.split()
@@ -68,7 +69,7 @@ def add_typos(text):
 
     for w in words:
         lw = w.lower()
-        if lw in typos and random.random() < 0.3:
+        if lw in typos and random.random() < 0.25:
             new_words.append(random.choice(typos[lw]))
         else:
             new_words.append(w)
@@ -88,7 +89,7 @@ while len(data) < target_size:
     base = get_base(dept, sent)
     template = random.choice(templates)
 
-    text = template.format(dept=dept, base=base)
+    text = template.format(base=base)
 
     # case noise
     text = random.choice(case_noise)(text)
@@ -127,5 +128,5 @@ os.makedirs(os.path.dirname(DATA_PATH), exist_ok=True)
 
 df.to_csv(DATA_PATH, index=False, encoding="utf-8-sig")
 
-print(f"✅ Generated {len(df)} NOISY reviews")
+print(f"✅ Generated {len(df)} NOISY reviews (NO LEAKAGE)")
 print("📁 Saved in:", DATA_PATH)
