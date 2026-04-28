@@ -1,13 +1,15 @@
 import re
+import pandas as pd
 
 def clean_text(text):
-    text = text.lower()  # minuscolo
-    text = re.sub(r"[^\w\s]", " ", text)  # rimuove punteggiatura
-    text = re.sub(r"\s+", " ", text).strip()  # spazi multipli
+    text = text.lower()
+    text = re.sub(r'[^\w\s]', '', text)  # rimuove punteggiatura
+    text = re.sub(r'\s+', ' ', text).strip()
     return text
 
+def load_and_preprocess(path):
+    df = pd.read_csv(path)
 
-def preprocess_dataframe(df):
-    df = df.copy()
-    df["text"] = df["text"].apply(clean_text)
+    df['text'] = df['text'].astype(str).apply(clean_text)
+
     return df

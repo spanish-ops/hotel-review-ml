@@ -1,49 +1,36 @@
-import numpy as np
-import pandas as pd
-import joblib
+from sklearn.metrics import accuracy_score, f1_score, classification_report, confusion_matrix
+import matplotlib.pyplot as plt
+import os
 
+def evaluate(dep_model, sent_model, X_test, y_dep_test, y_sent_test, output_path):
 
-# Carica modello già addestrato
-model = joblib.load("models/dept_model.pkl")
+    dep_pred = dep_model.predict(X_test)
+    sent_pred = sent_model.predict(X_test)
 
+    print("=== REPARTO ===")
+    print("Accuracy:", accuracy_score(y_dep_test, dep_pred))
+    print("F1:", f1_score(y_dep_test, dep_pred, average='macro'))
+    print(classification_report(y_dep_test, dep_pred))
 
-def explain_prediction(text):
-    """
-    Mostra le parole più influenti per una predizione
-    """
+    print("\n=== SENTIMENT ===")
+    print("Accuracy:", accuracy_score(y_sent_test, sent_pred))
+    print("F1:", f1_score(y_sent_test, sent_pred, average='macro'))
+    print(classification_report(y_sent_test, sent_pred))
 
-    # estrai TF-IDF e classificatore
-    tfidf = model.named_steps["tfidf"]
-    clf = model.named_steps["clf"]
+    os.makedirs(output_path, exist_ok=True)
 
-    # trasformazione testo
-    X = tfidf.transform([text])
+    # Confusion Matrix reparto
+    cm_dep = confusion_matrix(y_dep_test, dep_pred)
+    plt.figure()
+    plt.imshow(cm_dep)
+    plt.title("Confusion Matrix - Department")
+    plt.colorbar()
+    plt.savefig(os.path.join(output_path, "cm_department.png"))
 
-    # predizione
-    prediction = model.predict([text])[0]
-
-    # recupero parole
-    feature_names = tfidf.get_feature_names_out()
-
-    # pesi del modello (coeff logistic regression)
-    coef = clf.coef_[0]
-
-    # associa parole → peso
-    word_weights = list(zip(feature_names, coef))
-
-    # ordina per importanza
-    top_positive = sorted(word_weights, key=lambda x: x[1], reverse=True)[:10]
-    top_negative = sorted(word_weights, key=lambda x: x[1])[:10]
-
-    return {
-        "text": text,
-        "prediction": prediction,
-        "top_positive_words": top_positive,
-        "top_negative_words": top_negative
-    }
-
-
-# esempio di test
-if __name__ == "__main__":
-    result = explain_prediction("personale scortese e camera sporca")
-    print(result)
+    # Confusion Matrix sentiment
+    cm_sent = confusion_matrix(y_sent_test, sent_pred)
+    plt.figure()
+    plt.imshow(cm_sent)
+    plt.title("Confusion Matrix - Sentiment")
+    plt.colorbar()
+    plt.savefig(os.path.join(output_path, "cm_sentiment.png"))
