@@ -1,0 +1,7 @@
+=== DEPARTMENT ===
+Accuracy: 0.97
+F1: 0.970467012258057
+
+=== SENTIMENT ===
+Accuracy: 0.93
+F1: 0.9225578050669322

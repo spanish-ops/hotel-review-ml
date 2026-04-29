@@ -6,7 +6,7 @@ from src.pipelines.ml.evaluate_models import evaluate
 from src.pipelines.ml.explainability import show_top_features
 
 # PATH DINAMICI
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 DATA_PATH = os.path.join(BASE_DIR, "data", "reviews_dataset.csv")
 MODELS_PATH = os.path.join(BASE_DIR, "models")
