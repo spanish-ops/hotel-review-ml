@@ -95,22 +95,3 @@ Avvio:
 streamlit run app/dashboard.py
 
 ---
-
-## 📤 Export risultati
-
-I risultati vengono salvati automaticamente con timestamp in:
-outputs/predictions/
-
----
-
-## 🧪 Tecnologie
-
-Python, Scikit-learn, Pandas, NumPy, TF-IDF, Streamlit, Matplotlib
-
----
-
-## 📌 Note
-
-- dataset misto (reale + sintetico)
-- progetto dimostrativo di NLP
-- buone capacità di generalizzazione su testi simili
