@@ -1,69 +1,144 @@
- Hotel Review ML Project
+# 🏨 Hotel Review ML Project
 
-Progetto di Machine Learning per la classificazione automatica di recensioni di hotel in base a:
-- Sentiment (positivo/negativo)
-- Dipartimento (Housekeeping, Reception, F&B)
+Progetto di Machine Learning per la classificazione automatica di recensioni di hotel basato su:
 
- Obiettivo
+- 📌 Sentiment analysis (positivo / negativo)
+- 📌 Classificazione del reparto (Housekeeping, Reception, Food & Beverage)
 
-L'obiettivo del progetto è costruire un sistema di Natural Language Processing in grado di:
-- analizzare recensioni testuali di hotel
-- classificare il sentiment
-- identificare il reparto coinvolto
+---
 
- Dataset
+## 🎯 Obiettivo
 
-Il dataset è composto da tre tipologie di dati:
-- recensioni reali (raccolte manualmente)
-- recensioni generate "clean"
-- recensioni generate con rumore (noisy)
+L’obiettivo del progetto è sviluppare un sistema di Natural Language Processing in grado di:
 
-Totale dataset: ~550+ recensioni
+- analizzare recensioni testuali non strutturate
+- identificare il reparto di riferimento della recensione
+- classificare il sentiment espresso dal cliente
+- fornire una soluzione applicativa utilizzabile tramite dashboard
 
- Struttura del progetto
+Il sistema è stato progettato per simulare un contesto reale di analisi dei feedback dei clienti in ambito alberghiero.
 
+---
+
+## 📊 Dataset
+
+Il dataset è composto da circa 500+ recensioni e include:
+
+- recensioni sintetiche pulite
+- recensioni sintetiche con rumore (typos, maiuscole, ambiguità)
+- recensioni reali raccolte online
+
+Ogni record contiene:
+- `text` → recensione
+- `department` → reparto
+- `sentiment` → polarità
+
+Il dataset finale è stato bilanciato e mescolato per migliorare la generalizzazione del modello.
+
+---
+
+## 🧠 Modelli utilizzati
+
+- Logistic Regression (reparto)
+- Logistic Regression (sentiment)
+- TF-IDF Vectorizer per la rappresentazione testuale
+
+Modelli salvati nella cartella:
+
+models/
+├── department_model.pkl
+├── sentiment_model.pkl
+└── vectorizer.pkl
+
+---
+
+## 📁 Struttura del progetto
 hotel-review-ml/
 │
-├── data/ # dataset CSV
-├── src/ # codice principale
-├── notebooks/ # analisi ed esperimenti
-├── outputs/ # risultati e grafici
-├── models/ # modelli salvati
+├── data/
+│ └── reviews_dataset.csv
+│
+├── src/
+│ ├── main.py
+│ ├── pipelines/
+│ └── ml/
+│ ├── preprocessing.py
+│ ├── train_models.py
+│ ├── evaluate_models.py
+│ └── explainability.py
+│
+├── models/
+├── outputs/
+│ ├── figures/
+│
+├── app/
+│ └── dashboard.py
+│
 └── README.md
 
- Pipeline del progetto
 
-1. Creazione dataset (real + synthetic)
-2. Preprocessing del testo
-3. Vectorizzazione (TF-IDF)
-4. Training modelli ML
-5. Valutazione e confronto modelli
+---
 
- Modelli utilizzati
+## 🚀 Come eseguire il progetto
 
-- Logistic Regression
-- Multinomial Naive Bayes
-- Support Vector Machine (SVM)
+### 1️⃣ Creazione ambiente virtuale
 
-
- Metriche
-
-Le performance vengono valutate tramite:
-- Accuracy
-- Precision
-- Recall
-- F1-score
-- Confusion Matrix
-
- Come eseguire il progetto
-
-```bash id="r2"
-# creare ambiente virtuale
+```bash
 python -m venv venv
-source venv/Scripts/activate  # Windows
+Attivazione:
 
-# installare dipendenze
+Windows:
+
+venv\Scripts\activate
+
+2️⃣ Installazione dipendenze
 pip install -r requirements.txt
 
-# training
-python src/evaluate_models.py
+
+3️⃣ Esecuzione pipeline ML (training + evaluation)
+
+Dalla root del progetto:
+python -m src.main
+
+Questo comando esegue:
+
+caricamento dataset
+preprocessing
+training modelli
+valutazione
+salvataggio output in outputs/
+
+📊 Output generati
+
+Dopo l’esecuzione:
+
+metriche (accuracy, F1-score)
+confusion matrix salvate in:
+outputs/figures/
+
+🖥️ Avvio Dashboard
+
+
+La dashboard permette di:
+
+inserire una singola recensione
+oppure caricare un file CSV
+ottenere:
+reparto predetto
+sentiment predetto
+probabilità associate
+
+
+▶ Avvio:
+streamlit run app/dashboard.py
+
+📤 Export risultati
+
+Quando si carica un file CSV dalla dashboard:
+
+il sistema genera automaticamente un file di output
+il file viene salvato con timestamp
+
+Percorso:
+
+outputs/predictions/
