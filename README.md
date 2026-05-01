@@ -1,144 +1,116 @@
 # 🏨 Hotel Review ML Project
 
 Progetto di Machine Learning per la classificazione automatica di recensioni di hotel basato su:
-
-- 📌 Sentiment analysis (positivo / negativo)
-- 📌 Classificazione del reparto (Housekeeping, Reception, Food & Beverage)
+- Sentiment (positivo / negativo)
+- Reparto (Housekeeping, Reception, Food & Beverage)
 
 ---
 
 ## 🎯 Obiettivo
 
-L’obiettivo del progetto è sviluppare un sistema di Natural Language Processing in grado di:
-
+Il progetto ha lo scopo di sviluppare un sistema di Natural Language Processing in grado di:
 - analizzare recensioni testuali non strutturate
-- identificare il reparto di riferimento della recensione
-- classificare il sentiment espresso dal cliente
-- fornire una soluzione applicativa utilizzabile tramite dashboard
-
-Il sistema è stato progettato per simulare un contesto reale di analisi dei feedback dei clienti in ambito alberghiero.
+- classificare il reparto di riferimento
+- classificare il sentiment espresso
+- fornire un’interfaccia utilizzabile tramite dashboard
 
 ---
 
 ## 📊 Dataset
 
-Il dataset è composto da circa 500+ recensioni e include:
-
+Il dataset (~500+ recensioni) include:
 - recensioni sintetiche pulite
-- recensioni sintetiche con rumore (typos, maiuscole, ambiguità)
-- recensioni reali raccolte online
+- recensioni sintetiche con rumore
+- recensioni reali
 
 Ogni record contiene:
-- `text` → recensione
-- `department` → reparto
-- `sentiment` → polarità
-
-Il dataset finale è stato bilanciato e mescolato per migliorare la generalizzazione del modello.
+- text
+- department
+- sentiment
 
 ---
 
-## 🧠 Modelli utilizzati
+## 🧠 Modelli
 
-- Logistic Regression (reparto)
+- Logistic Regression (department)
 - Logistic Regression (sentiment)
-- TF-IDF Vectorizer per la rappresentazione testuale
+- TF-IDF Vectorizer
 
-Modelli salvati nella cartella:
-
-models/
-├── department_model.pkl
-├── sentiment_model.pkl
-└── vectorizer.pkl
+Modelli salvati in:
+- models/department_model.pkl
+- models/sentiment_model.pkl
+- models/vectorizer.pkl
 
 ---
 
-## 📁 Struttura del progetto
+## 📁 Struttura progetto
+
 hotel-review-ml/
 │
 ├── data/
-│ └── reviews_dataset.csv
-│
 ├── src/
-│ ├── main.py
-│ ├── pipelines/
-│ └── ml/
-│ ├── preprocessing.py
-│ ├── train_models.py
-│ ├── evaluate_models.py
-│ └── explainability.py
-│
+│   ├── main.py
+│   └── pipelines/ml/
 ├── models/
 ├── outputs/
-│ ├── figures/
-│
+│   └── figures/
 ├── app/
-│ └── dashboard.py
-│
-└── README.md
-
+│   └── dashboard.py
 
 ---
 
-## 🚀 Come eseguire il progetto
+## 🚀 Esecuzione progetto
 
-### 1️⃣ Creazione ambiente virtuale
-
-```bash
+### 1. Ambiente virtuale
 python -m venv venv
-Attivazione:
 
 Windows:
-
 venv\Scripts\activate
 
-2️⃣ Installazione dipendenze
+---
+
+### 2. Installazione dipendenze
 pip install -r requirements.txt
 
+---
 
-3️⃣ Esecuzione pipeline ML (training + evaluation)
-
-Dalla root del progetto:
+### 3. Training modello
 python -m src.main
 
-Questo comando esegue:
+Output:
+- metriche
+- confusion matrix in outputs/figures/
 
-caricamento dataset
-preprocessing
-training modelli
-valutazione
-salvataggio output in outputs/
+---
 
-📊 Output generati
+## 🖥️ Dashboard
 
-Dopo l’esecuzione:
+Funzionalità:
+- inserimento recensione singola
+- upload CSV
+- predizione reparto + sentiment
+- probabilità associate
 
-metriche (accuracy, F1-score)
-confusion matrix salvate in:
-outputs/figures/
-
-🖥️ Avvio Dashboard
-
-
-La dashboard permette di:
-
-inserire una singola recensione
-oppure caricare un file CSV
-ottenere:
-reparto predetto
-sentiment predetto
-probabilità associate
-
-
-▶ Avvio:
+Avvio:
 streamlit run app/dashboard.py
 
-📤 Export risultati
+---
 
-Quando si carica un file CSV dalla dashboard:
+## 📤 Export risultati
 
-il sistema genera automaticamente un file di output
-il file viene salvato con timestamp
-
-Percorso:
-
+I risultati vengono salvati automaticamente con timestamp in:
 outputs/predictions/
+
+---
+
+## 🧪 Tecnologie
+
+Python, Scikit-learn, Pandas, NumPy, TF-IDF, Streamlit, Matplotlib
+
+---
+
+## 📌 Note
+
+- dataset misto (reale + sintetico)
+- progetto dimostrativo di NLP
+- buone capacità di generalizzazione su testi simili
